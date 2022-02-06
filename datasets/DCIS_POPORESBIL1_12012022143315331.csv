@@ -1,0 +1,484 @@
+﻿"ITTER107","Territorio","TIPO_DATO15","Tipo di indicatore demografico","SEXISTAT1","Sesso","TIME","Seleziona periodo","Value","Flag Codes","Flags"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020","2020",4311217,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",4311217,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",4309777,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",4308215,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",4303178,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",4297437,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",4294968,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",4293373,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",4292021,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",4290413,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",4289901,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",4288050,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",4282200,,
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",4274945,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",4271472,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",4269477,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",4265800,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",4262375,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",4261303,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",4259945,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",4258820,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",4257972,"p","dato provvisorio"
+"ITC1","Piemonte","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",4257828,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020","2020",125034,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",125034,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",124928,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",124830,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",124673,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",124517,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",124456,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",124447,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",124478,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",124423,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",124434,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",124354,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",124102,,
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",124089,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",123967,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",123844,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",123795,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",123727,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",123672,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",123615,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",123617,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",123518,"p","dato provvisorio"
+"ITC2","Valle d'Aosta / Vallée d'Aoste","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",123494,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020","2020",1524826,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1524826,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1523878,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1523084,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1520797,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1518445,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1517407,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1516596,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1516239,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1515837,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1515285,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1514224,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1512527,,
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1518495,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1516895,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1515199,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1513690,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1512317,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1511247,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1510667,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1510496,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1510281,"p","dato provvisorio"
+"ITC3","Liguria","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1510003,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020","2020",10027602,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",10027602,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",10027552,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",10026900,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",10006133,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",9992442,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",9987488,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",9983411,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",9980563,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",9978694,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",9980098,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",9980071,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",9973241,,
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",9981554,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",9978408,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",9976151,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",9971522,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",9967514,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",9965702,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",9965757,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",9966227,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",9965319,"p","dato provvisorio"
+"ITC4","Lombardia","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",9968479,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020","2020",532644,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",532644,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",532754,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",532769,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",532583,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",532344,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",532428,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",532414,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",532597,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",532865,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",533276,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",533595,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",533516,,
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",534912,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",534914,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",535080,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",535260,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",535462,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",535690,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",535906,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",536280,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",536670,"p","dato provvisorio"
+"ITD1","Provincia Autonoma Bolzano / Bozen","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",536854,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020","2020",545425,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",545425,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",545497,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",545510,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",545167,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",544738,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",544654,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",544730,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",544918,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",545058,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",545379,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",545393,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",545165,,
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",542166,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",541963,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",541847,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",541665,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",541575,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",541536,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",541671,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",541861,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",541953,"p","dato provvisorio"
+"ITD2","Provincia Autonoma Trento","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",542225,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020","2020",4879133,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",4879133,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",4877480,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",4876121,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",4872725,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",4869314,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",4867466,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",4866359,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",4865140,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",4864370,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",4864320,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",4863376,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",4860343,,
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",4869830,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",4865969,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",4863704,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",4861013,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",4859111,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",4858303,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",4857810,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",4857727,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",4857699,"p","dato provvisorio"
+"ITD3","Veneto","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",4858449,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020","2020",1206216,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1206216,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1205496,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1204970,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1204006,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1202996,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1202557,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1202208,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1201978,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1201768,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1202008,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1202227,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1201446,,
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1201510,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1200374,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1199950,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1199244,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1199053,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1199192,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1199071,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1198737,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1198776,"p","dato provvisorio"
+"ITD4","Friuli-Venezia Giulia","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1199071,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020","2020",4464119,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",4464119,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",4464551,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",4464643,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",4459914,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",4456200,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",4454750,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",4453882,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",4453690,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",4453031,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",4453855,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",4453682,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",4452246,,
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",4438937,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",4436460,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",4434589,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",4432126,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",4430693,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",4429756,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",4429741,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",4430280,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",4430721,"p","dato provvisorio"
+"ITD5","Emilia-Romagna","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",4432411,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020","2020",3692555,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",3692555,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",3690958,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",3689590,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",3686060,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",3682940,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",3681651,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",3680648,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",3679823,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",3678441,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",3678236,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",3676739,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",3673743,,
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",3692865,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",3690454,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",3688505,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",3686608,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",3684617,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",3683729,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",3682667,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",3682395,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",3681218,"p","dato provvisorio"
+"ITE1","Toscana","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",3681112,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020","2020",870165,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",870165,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",869583,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",869169,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",868460,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",867905,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",867615,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",867301,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",867011,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",866611,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",866418,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",866085,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",865525,,
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",865452,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",864705,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",863636,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",862920,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",862462,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",862062,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",861668,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",861531,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",861263,"p","dato provvisorio"
+"ITE2","Umbria","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",861154,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020","2020",1512672,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1512672,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1511876,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1510898,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1508951,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1507451,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1506495,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1505780,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1505248,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1504844,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1504715,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1504209,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1502931,,
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1498236,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1497053,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1496028,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1494732,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1493853,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1493183,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1492767,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1492438,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1491961,"p","dato provvisorio"
+"ITE3","Marche","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1491941,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020","2020",5755700,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",5755700,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",5752852,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",5750888,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",5747214,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",5742215,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",5740128,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",5737460,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",5733492,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",5729828,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",5728669,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",5726938,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",5723597,,
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",5730399,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",5729075,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",5728222,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",5725940,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",5724092,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",5723739,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",5723425,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",5723216,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",5722137,"p","dato provvisorio"
+"ITE4","Lazio","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",5722270,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020","2020",1293941,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1293941,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1292977,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1292126,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1290767,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1289690,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1289012,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1288368,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1288110,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1287756,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1287663,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1287178,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1286333,,
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1281012,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1279936,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1279264,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1278456,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1277544,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1276901,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1276487,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1276195,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1276011,"p","dato provvisorio"
+"ITF1","Abruzzo","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1275831,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020","2020",300516,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",300516,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",299952,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",299563,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",299137,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",298670,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",298365,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",298042,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",297641,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",297511,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",297219,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",296906,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",296497,,
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",294294,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",293890,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",293480,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",293091,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",292751,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",292508,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",292292,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",292100,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",292025,"p","dato provvisorio"
+"ITF2","Molise","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",291843,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020","2020",5712143,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",5712143,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",5708212,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",5704571,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",5700852,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",5698320,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",5696928,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",5695495,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",5693967,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",5692493,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",5691248,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",5688629,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",5683869,,
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",5624260,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",5622276,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",5620454,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",5618303,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",5615686,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",5613399,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",5611723,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",5610843,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",5609205,"p","dato provvisorio"
+"ITF3","Campania","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",5607998,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020","2020",3953305,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",3953305,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",3950361,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",3947623,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",3944543,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",3942176,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",3940745,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",3939477,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",3938379,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",3937212,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",3936067,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",3934476,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",3931661,,
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",3933777,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",3930966,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",3928688,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",3925948,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",3923107,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",3921649,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",3920146,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",3919076,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",3917954,"p","dato provvisorio"
+"ITF4","Puglia","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",3917344,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020","2020",553254,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",553254,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",552626,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",552084,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",551579,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",551084,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",550698,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",550350,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",550055,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",549710,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",549388,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",548849,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",548353,,
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",545130,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",544556,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",544137,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",543711,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",543261,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",542912,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",542585,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",542227,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",541999,"p","dato provvisorio"
+"ITF5","Basilicata","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",541748,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020","2020",1894110,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1894110,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1891907,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1890094,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1888097,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1886721,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1885830,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1884981,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1884058,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1883348,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1882473,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1881109,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1879707,,
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1860601,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1859218,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1858003,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1856729,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1855553,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1854654,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1853749,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1853169,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1852450,"p","dato provvisorio"
+"ITF6","Calabria","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1851367,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020","2020",4875290,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",4875290,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",4870653,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",4866505,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",4862558,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",4859711,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",4857610,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",4856139,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",4855001,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",4853196,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",4851957,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",4849866,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",4846767,,
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",4833705,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",4829908,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",4827545,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",4825335,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",4823194,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",4820990,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",4818972,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",4817291,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",4814782,"p","dato provvisorio"
+"ITG1","Sicilia","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",4812802,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020","2020",1611621,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-01","Gen-2020",1611621,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-02","Feb-2020",1610411,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-03","Mar-2020",1609313,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-04","Apr-2020",1607890,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-05","Mag-2020",1606779,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-06","Giu-2020",1605593,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-07","Lug-2020",1604998,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-08","Ago-2020",1604359,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-09","Set-2020",1603693,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-10","Ott-2020",1602849,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-11","Nov-2020",1601671,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2020-12","Dic-2020",1600228,,
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-01","Gen-2021",1590044,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-02","Feb-2021",1588587,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-03","Mar-2021",1587345,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-04","Apr-2021",1586145,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-05","Mag-2021",1585126,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-06","Giu-2021",1584235,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-07","Lug-2021",1583600,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-08","Ago-2021",1583193,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-09","Set-2021",1582560,"p","dato provvisorio"
+"ITG2","Sardegna","BEG","popolazione inizio periodo","9","totale","2021-10","Ott-2021",1581923,"p","dato provvisorio"

@@ -1,4 +1,7 @@
 _site
 .jekyll-cache
+.DS_Store
 Gemfile
 Gemfile.lock
+datasets/.ipynb_checkpoints
+datasets/.DS_Store

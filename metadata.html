@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>VIRULENCE</title>
+  <title>VIRULENCE - Metadata</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
@@ -24,6 +24,7 @@
 
 
 </head>
+
 <body>
 
 <!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -60,7 +61,7 @@
         <a class="nav-link active" href="index.html">Virulence</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="metadata.html">Metadata</a>
+        <a class="nav-link" href="#">Metadata</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="visualization.html">Visualization</a>
@@ -74,23 +75,72 @@
     </ul>
   </div>
 </nav>
-<div class="p-5 bg-light text-center">
-  <h1>Virulence</h1>
-  <p>The Virulence project.</p>
+
+<div class="container mt-5 text-center">
+    <h1>Metadata</h1>
 </div>
 
-<div class="container mt-5">
-    <div class="map" id="map"></div>
+<div class="container mt-3">
+  <div class="d-flex justify-content-center">
+    <div class="bootstrap-select-wrapper">
+      <label class="text-center"for="data"><b>Select dataset:</b></label>
+      <select name="data" title="Scegli una opzione" class="form-select" onchange="">
+        <option value="Value 1">Opzione 1</option>
+        <option value="Value 2">Opzione 2</option>
+        <option value="Value 3">Opzione 3</option>
+        <option value="Value 4">Opzione 4</option>
+        <option value="Value 5">Opzione 5</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="container w-auto p-3">
+    <div class="card-header">
+      <label for="tab"><h2 class="card-title">Dataset Name</h2></label>
+    </div>
+    <table name="tab" class="table table-hover table-responsive">
+      <tbody>
+        <tr>
+          <th>Title</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">ID</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+        <tr>
+          <th scope="row">Distribution Format</th>
+          <td>boh</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
-<footer class="footer mt-5 p-4 text-center py3 bg-light ">
+<footer class="footer mt-5 p-4 text-center py3 bg-light static-bottom">
  <div class="container">
    <span class="text-muted text-white">Footer</span>
  </div>
 </footer>
-
-<script type="text/javascript" src="script/map-data-regions.js"></script>
-<script type="text/javascript" src="script/map.js"></script>
-
 </body>
 </html>
