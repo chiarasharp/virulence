@@ -22,37 +22,15 @@
    crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
 
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
 
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-
-<!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Virulence</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Metadata</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Visualization</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Documentation</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">License</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="jumbotron text-center">
-  <h1>Virulence Page 2</h1>
-  <p>Description!</p>
-</div>-->
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
@@ -83,64 +61,168 @@
 <div class="container mt-3">
   <div class="d-flex justify-content-center">
     <div class="bootstrap-select-wrapper">
-      <label class="text-center"for="data"><b>Select dataset:</b></label>
-      <select name="data" title="Scegli una opzione" class="form-select" onchange="">
-        <option value="Value 1">Opzione 1</option>
-        <option value="Value 2">Opzione 2</option>
-        <option value="Value 3">Opzione 3</option>
-        <option value="Value 4">Opzione 4</option>
-        <option value="Value 5">Opzione 5</option>
+      <label class="text-center"for="dataset"><b>Select catalog:</b></label>
+      <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
+        <option value="option1">RNDT</option>
+        <option value="option2">I.Stat</option>
+        <option value="option3">Opzione 3</option>
+        <option value="option4">Opzione 4</option>
+        <option value="option5">Opzione 5</option>
       </select>
     </div>
   </div>
 
-  <div class="container w-auto p-3">
-    <div class="card-header">
-      <label for="tab"><h2 class="card-title">Dataset Name</h2></label>
-    </div>
-    <table name="tab" class="table table-hover table-responsive">
-      <tbody>
-        <tr>
-          <th>Title</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">ID</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-        <tr>
-          <th scope="row">Distribution Format</th>
-          <td>boh</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
 
-<footer class="footer mt-5 p-4 text-center py3 bg-light static-bottom">
- <div class="container">
-   <span class="text-muted text-white">Footer</span>
- </div>
-</footer>
+  <!-- RNDT -->
+  <div id="option1" class="group container w-auto p-3">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td>CSV</td> <!-- link -->
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td>Riepilogo nazionale quotidiano del monitoraggio sanitario che descrive il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19).</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2021-12-10</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Subject</th>
+                      <td><a href="https://inspire.ec.europa.eu/theme/hh"class="text-info" target="_blank">Salute umana e sicurezza</a>, <a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/HEAL"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://www.protezionecivile.gov.it" class="text-info" target="_blank">PCM - Dipartimento della Protezione Civile</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="https://creativecommons.org/licenses/by/4.0/" class="text-info" target="_blank">CC BY 4.0</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Keyword</th>
+                      <td>Salute umana e sicurezza, human health, Nazionale, EU, opendata, covid-19</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- I.STAT -->
+  <div id="option2" class="group container w-auto p-3">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">I.Stat</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning"> <!-- rivedere numero stelle -->
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>Popolazione residente - bilancio</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td>CSV</td> <!-- link -->
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td></td> <!-- ? -->
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2021-10-29</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/SOCI"class="text-info" target="_blank">Population and Society</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://www.istat.it/it/" class="text-info" target="_blank">Istat – Istituto nazionale di statistica</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="https://creativecommons.org/licenses/by/3.0/it/" class="text-info" target="_blank">CC BY 3.0 IT</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <footer class="footer mt-5 p-4 text-center py3 bg-light static-bottom">
+    <div class="container">
+      <span class="text-muted text-white">Footer</span>
+    </div>
+  </footer>
+
+
+  <script>
+  $(document).ready(function () {
+    $('.group').hide();
+    $('#option1').show();
+    $('#selectMe').change(function () {
+      $('.group').hide();
+      $('#'+$(this).val()).show();
+    })
+  });
+  </script>
 </body>
 </html>

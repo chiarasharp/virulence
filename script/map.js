@@ -26,7 +26,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = '<h4>Region</h4>' +  (props ?
-        '<b>' + props.NOME_REG + '</b><br />'
+        '<b>' + props.reg_name + '</b><br />'
         : 'Hover over a region');
 };
 

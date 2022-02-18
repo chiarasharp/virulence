@@ -1,0 +1,135 @@
+<?xml version="1.0" lang="en" encoding="utf-8" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Agent>
+    <foaf:name>Chiara Manca</foaf:name>
+    <foaf:name>Luca Tonti</foaf:name>
+  </foaf:Agent>
+
+  <!-- CATALOGO RNDT -->
+  <dcatapit:Catalog rdf:about="https://geodati.gov.it">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title xml:lang="it">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</dct:title>
+    <dct:description xml:lang="it">Il servizio di ricerca del RNDT fornisce l'accesso ai metadati su dati e servizi territoriali delle Pubbliche Amministrazioni italiane. Esso è conforme alle specifiche CSW (ISO Application Profile) di OGC e alle linee guida INSPIRE sui servizi di ricerca</dct:description>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=agid">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>agid</dct:identifier>
+        <foaf:name xml:lang="it">Agenzia per l'Italia Digitale</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-08</dct:modified>
+    <foaf:homepage rdf:resource="https://geodati.gov.it/"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-04-06</dct:issued>
+    <dcat:themeTaxonomy>
+      <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+        <dct:title>Data Theme Vocabulary</dct:title>
+      </skos:ConceptScheme>
+    </dcat:themeTaxonomy>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <!-- DATASET COVID -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="https://geodati.gov.it/resource/id/PCM:COVID-19:05032020:093000">  <!-- link rotto -->
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>PCM:COVID-19</dct:identifier>
+        <dct:title xml:lang="it">COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</dct:title>
+        <dct:description xml:lang="it">Riepilogo nazionale quotidiano del monitoraggio sanitario che descrive il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19).</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-10</dct:modified>
+        <dct:subject rdf:resource="http://inspire.ec.europa.eu/theme/hh"/>
+        <dct:subject rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"/>
+        <dcat:theme>
+          <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+            <skos:prefLabel xml:lang="it">Salute</skos:prefLabel>
+          </skos:Concept>
+        </dcat:theme>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:about="https://geodati.gov.it/resource/administration/PCM:COVID-19:05032020:093000/owner">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>PCM</dct:identifier>
+            <foaf:name xml:lang="it">PCM - Dipartimento della Protezione Civile</foaf:name>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+        <dcat:distribution>
+          <dcatapit:Distribution rdf:about="https://geodati.gov.it/resource/distribution/PCM:COVID-19:05032020:093000/CSV-2876">  <!-- link rotto -->
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:title xml:lang="it">Distribuzione - Formato CSV</dct:title>
+            <dct:description xml:lang="it">Distribuzione - Formato CSV</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni"/>
+            <dct:license>
+              <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+                <rdf:type rdf:resource="dct:LicenseDocument"/>
+                <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+                <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+              </dcatapit:LicenseDocument>
+            </dct:license>
+          </dcatapit:Distribution>
+        </dcat:distribution>
+        <dcat:contactPoint>
+          <dcatapit:Organization rdf:about="https://geodati.gov.it/resource/pointOfContact/PCM:COVID-19:05032020:093000-1"><!-- link rotto -->
+            <rdf:type rdf:resource="vcard:Kind"/>
+            <rdf:type rdf:resource="vcard:Organization"/>
+            <vcard:fn xml:lang="it">PCM - Dipartimento della Protezione Civile</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:sisterritoriale@protezionecivile.it"/>
+            <vcard:hasURL rdf:resource="www.protezionecivile.gov.it"/>
+          </dcatapit:Organization>
+        </dcat:contactPoint>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:keyword>Salute umana e sicurezza</dcat:keyword>
+        <dcat:keyword>human health</dcat:keyword>
+        <dcat:keyword>Nazionale</dcat:keyword>
+        <dcat:keyword>EU</dcat:keyword>
+        <dcat:keyword>opendata</dcat:keyword>
+        <dcat:keyword>covid-19</dcat:keyword>
+        <dct:spatial>
+          <dct:Location rdf:about="https://geodati.gov.it/resource/spatial/PCM:COVID-19:05032020:093000">  <!-- link rotto -->
+            <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((19.5511 48.0008, 5.8466 48.0008, 5.8466 35.677, 19.5511 35.677, 19.5511 48.0008))</locn:geometry>
+          </dct:Location>
+        </dct:spatial>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+  </dcatapit:Catalog>
+
+  <!-- CATALOGO ISTAT-->
+  <dcatapit:Catalog rdf:about="http://dati.istat.it">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title>I.Stat</dct:title>
+    <dct:description xml:lang="it">Il servizio di ricerca dati dell'Istituto Nazionale di Statistica.</dct:description>
+    <dct:publisher>Istat – Istituto nazionale di statistica</dct:publisher>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-08</dct:modified>
+    <foaf:homepage rdf:resource="http://dati.istat.it"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+    <!-- DATASET Popolazione residente - bilancio  -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1">  <!-- link rotto -->
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1</dct:identifier>
+        <dct:title xml:lang="it">Popolazione residente - bilancio</dct:title>
+        <dct:description xml:lang="it"></dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:distribution>
+          <dcatapit:Distribution rdf:about="">  <!-- da rivedere -->
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource=""/> <!-- da rivedere -->
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere -->
+          </dcatapit:Distribution>
+        </dcat:distribution>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+  </dcatapit:Catalog>
+
+</rdf:RDF>
