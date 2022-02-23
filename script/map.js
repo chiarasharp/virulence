@@ -1,6 +1,6 @@
 
 function updateMap(v) {
-  document.getElementById('container-map').innerHTML = "<div class='map' id='map'></div>";
+  //document.getElementById('container-map').innerHTML = "<div class='map' id='map'></div>";
   var map = L.map('map').setView([41.467,12.700], 6);
 
   //var url_json_regions = "https://gist.githubusercontent.com/datajournalism-it/48e29e7c87dca7eb1d29/raw/2636aeef92ba0770a073424853f37690064eb0ea/regioni.geojson"
@@ -106,7 +106,7 @@ function updateMap(v) {
 
     diff = Math.round((max - min)/7)
 
-    console.log(min, max, diff)
+    //console.log(min, max, diff)
 
     steps = [min+(diff*6),min+(diff*5), min+(diff*4), min+(diff*3), min+(diff*2),min+diff, min]
     return steps
