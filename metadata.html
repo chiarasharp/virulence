@@ -32,27 +32,33 @@
 
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">Virulence</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Metadata</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="visualization.html">Visualization</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="documentation.html">Documentation</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">License</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Virulence</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="metadata.html">Metadata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visualization.html">Visualization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="documentation.html">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">License</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div class="container mt-5 text-center">
     <h1><b>Metadata</b></h1>
@@ -65,7 +71,7 @@
       <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
         <option value="option1">RNDT</option>
         <option value="option2">I.Stat</option>
-        <option value="option3">Opzione 3</option>
+        <option value="option3">Air Quality e-Reporting</option>
         <option value="option4">Opzione 4</option>
         <option value="option5">Opzione 5</option>
       </select>
@@ -74,7 +80,7 @@
 
 
   <!-- RNDT -->
-  <div id="option1" class="group container w-auto p-3">
+  <div id="option1" class="group container w-auto p-5">
       <div class="card-header">
         <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
         <h6 class="card-subtitle mb-2">
@@ -145,7 +151,7 @@
   </div>
 
   <!-- I.STAT -->
-  <div id="option2" class="group container w-auto p-3">
+  <div id="option2" class="group container w-auto p-5">
       <div class="card-header">
         <label for="tab"><h2 class="card-title">I.Stat</h2></label>
         <h6 class="card-subtitle mb-2">
@@ -206,11 +212,78 @@
       </div>
   </div>
 
+  <!-- AIR QUALITY E-REPORTING -->
+  <div id="option3" class="group container w-auto p-5">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">Air Quality e-Reporting (AQ e-Reporting)</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>Air quality annual statistics calculated by the EEA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td>CSV</td> <!-- link -->
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td>The annual aggregated air quality values have been calculated by EEA based on the primary observations (time series) uploaded by countries into CDR and successfully tested by automated QC.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2022-02-02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/ENVI"class="text-info" target="_blank">Environment</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://ec.europa.eu/info/index_en" class="text-info" target="_blank">European Commission</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="" class="text-info" target="_blank"></a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ENG" class="text-info" target="_blank">ENG</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Keyword</th>
+                      <td>air, air quality, geospatial data, point data, priority data flow</td>
+                    </tr>
 
-  <footer class="footer mt-5 p-4 text-center py3 bg-light static-bottom">
-    <div class="container">
-      <span class="text-muted text-white">Footer</span>
-    </div>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <footer class="footer mt-5 p-4 text-center py3 bg-light ">
+   <div class="container">
+     <span class="text-muted text-white">Authored by Chiara Manca and Luca Tonti.</span><br>
+     <span class="text-muted text-white">This website is licensed under the <a class="text-info" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International license.</a></span>
+   </div>
   </footer>
 
 
