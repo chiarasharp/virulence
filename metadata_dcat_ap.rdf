@@ -36,7 +36,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <!-- DATASET COVID -->
     <dcat:dataset>
-      <dcatapit:Dataset rdf:about="https://geodati.gov.it/resource/id/PCM:COVID-19:05032020:093000">  <!-- link rotto -->
+      <dcatapit:Dataset rdf:about="https://geodati.gov.it/resource/id/PCM:COVID-19:05032020:093000">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
         <dct:identifier>PCM:COVID-19</dct:identifier>
         <dct:title xml:lang="it">COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</dct:title>
@@ -58,7 +58,7 @@
         </dct:rightsHolder>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
         <dcat:distribution>
-          <dcatapit:Distribution rdf:about="https://geodati.gov.it/resource/distribution/PCM:COVID-19:05032020:093000/CSV-2876">  <!-- link rotto -->
+          <dcatapit:Distribution rdf:about="https://geodati.gov.it/resource/distribution/PCM:COVID-19:05032020:093000/CSV-2876">
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:title xml:lang="it">Distribuzione - Formato CSV</dct:title>
             <dct:description xml:lang="it">Distribuzione - Formato CSV</dct:description>
@@ -74,7 +74,7 @@
           </dcatapit:Distribution>
         </dcat:distribution>
         <dcat:contactPoint>
-          <dcatapit:Organization rdf:about="https://geodati.gov.it/resource/pointOfContact/PCM:COVID-19:05032020:093000-1"><!-- link rotto -->
+          <dcatapit:Organization rdf:about="https://geodati.gov.it/resource/pointOfContact/PCM:COVID-19:05032020:093000-1">
             <rdf:type rdf:resource="vcard:Kind"/>
             <rdf:type rdf:resource="vcard:Organization"/>
             <vcard:fn xml:lang="it">PCM - Dipartimento della Protezione Civile</vcard:fn>
@@ -90,7 +90,7 @@
         <dcat:keyword>opendata</dcat:keyword>
         <dcat:keyword>covid-19</dcat:keyword>
         <dct:spatial>
-          <dct:Location rdf:about="https://geodati.gov.it/resource/spatial/PCM:COVID-19:05032020:093000">  <!-- link rotto -->
+          <dct:Location rdf:about="https://geodati.gov.it/resource/spatial/PCM:COVID-19:05032020:093000">
             <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((19.5511 48.0008, 5.8466 48.0008, 5.8466 35.677, 19.5511 35.677, 19.5511 48.0008))</locn:geometry>
           </dct:Location>
         </dct:spatial>
@@ -110,26 +110,61 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
     <!-- DATASET Popolazione residente - bilancio  -->
     <dcat:dataset>
-      <dcatapit:Dataset rdf:about="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1">  <!-- link rotto -->
+      <dcatapit:Dataset rdf:about="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
         <dct:identifier>http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1</dct:identifier>
         <dct:title xml:lang="it">Popolazione residente - bilancio</dct:title>
-        <dct:description xml:lang="it"></dct:description>
+        <dct:description xml:lang="it">Il bilancio della popolazione residente che tiene conto dei risultati del Censimento permanente della popolazione.</dct:description>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</dct:modified>
         <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
         <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
         <dcat:distribution>
-          <dcatapit:Distribution rdf:about="">  <!-- da rivedere -->
+          <dcatapit:Distribution>
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-            <dcat:accessURL rdf:resource=""/> <!-- da rivedere -->
+            <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/> <!-- da rivedere -->
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere -->
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
     </dcat:dataset>
   </dcatapit:Catalog>
+
+  <!-- CATALOGO Air Quality e-Reportings -->
+  <dcatapit:Catalog rdf:about="https://www.eea.europa.eu/data-and-maps/data/aqereporting-9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title>Air Quality e-Reporting (AQ e-Reporting)</dct:title>
+    <dct:description>European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries.</dct:description>
+    <dct:publisher rdf:resource="http://www.eea.europa.eu#organization">European Environment Agency</dct:publisher>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-18</dct:modified>
+    <foaf:homepage rdf:resource="https://www.eea.europa.eu"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <!-- DATASET Air quality annual statistics calculated by the EEA  -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html</dct:identifier>
+        <dct:title>Air quality annual statistics calculated by the EEA</dct:title>
+        <dct:description>The annual aggregated air quality values have been calculated by EEA based on the primary observations (time series) uploaded by countries into CDR and successfully tested by automated QC.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-18</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:rightsHolder rdf:resource="https://ec.europa.eu/info/index_en">European Commission</dct:rightsHolder>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+        <dcat:distribution>
+          <dcatapit:Distribution>
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+          </dcatapit:Distribution>
+        </dcat:distribution>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+  </dcatapit:Catalog>
+
 
 </rdf:RDF>

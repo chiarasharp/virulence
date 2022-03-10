@@ -1,6 +1,7 @@
 
 function updateMap(v) {
-  //document.getElementById('container-map').innerHTML = "<div class='map' id='map'></div>";
+  //map.remove();
+  document.getElementById('container-map').innerHTML = "<div class='map' id='map'></div>";
   var map = L.map('map').setView([41.467,12.700], 6);
 
   //var url_json_regions = "https://gist.githubusercontent.com/datajournalism-it/48e29e7c87dca7eb1d29/raw/2636aeef92ba0770a073424853f37690064eb0ea/regioni.geojson"

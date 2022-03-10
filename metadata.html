@@ -5,16 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+
   <!--BOOTSTRAP 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
   <!--BOOTSTRAP 4
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   -->
-
 
   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -60,224 +61,239 @@
     </div>
   </nav>
 
-<div class="container mt-5 text-center">
+  <div class="container mt-5 text-center">
     <h1><b>Metadata</b></h1>
+    <p>All the datasets described below can be accessed either in our <a href=""class="text-info" target="_blank">Github repository</a> or in the links inside each <b>Distribution</b> field. <br>Also, all the metadata has been made available in a <a target="_blank" class="text-info" href="https://raw.githubusercontent.com/chiarasharp/virulence/main/metadata_dcat_ap.rdf">RDF</a> file, as the standard <a target="_blank" class="text-info" href="https://www.w3.org/TR/vocab-dcat-2/">DCAT-AP 2.0</a> requires.</p>
 </div>
 
-<div class="container mt-3">
-  <div class="d-flex justify-content-center">
-    <div class="bootstrap-select-wrapper">
-      <label class="text-center"for="dataset"><b>Select catalog:</b></label>
-      <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
-        <option value="option1">RNDT</option>
-        <option value="option2">I.Stat</option>
-        <option value="option3">Air Quality e-Reporting</option>
-        <option value="option4">Opzione 4</option>
-        <option value="option5">Opzione 5</option>
-      </select>
+  <div class="container mt-3">
+    <div class="d-flex justify-content-center">
+      <div class="bootstrap-select-wrapper">
+        <label class="text-center"for="dataset"><b>Select catalog:</b></label>
+        <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
+          <option value="option1">RNDT</option>
+          <option value="option2">I.Stat</option>
+          <option value="option3">Air Quality e-Reporting</option>
+          <!--<option value="option4">Opzione 4</option>
+          <option value="option5">Opzione 5</option>-->
+        </select>
+      </div>
     </div>
-  </div>
 
 
-  <!-- RNDT -->
-  <div id="option1" class="group container w-auto p-5">
-      <div class="card-header">
-        <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
-        <h6 class="card-subtitle mb-2">
-          <span class="text-warning">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
-        </h6>
-      </div>
-      <div class="card-body">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
-              <div class="table-responsive">
-                <table name="tab" class="table table-hover table-responsive">
-                  <tbody>
-                    <tr>
-                      <th>Dataset</th>
-                      <td>COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Distribution</th>
-                      <td>CSV</td> <!-- link -->
-                    </tr>
-                    <tr>
-                      <th scope="row">Description</th>
-                      <td>Riepilogo nazionale quotidiano del monitoraggio sanitario che descrive il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19).</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Modified</th>
-                      <td>2021-12-10</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Subject</th>
-                      <td><a href="https://inspire.ec.europa.eu/theme/hh"class="text-info" target="_blank">Salute umana e sicurezza</a>, <a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Theme</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/HEAL"class="text-info" target="_blank">Salute</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Rights Holder</th>
-                      <td><a href="https://www.protezionecivile.gov.it" class="text-info" target="_blank">PCM - Dipartimento della Protezione Civile</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">License</th>
-                      <td><a href="https://creativecommons.org/licenses/by/4.0/" class="text-info" target="_blank">CC BY 4.0</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Language</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Keyword</th>
-                      <td>Salute umana e sicurezza, human health, Nazionale, EU, opendata, covid-19</td>
-                    </tr>
-
-                  </tbody>
-                </table>
+    <!-- RNDT
+    ok tranne:
+    - link csv-->
+    <div id="option1" class="group container w-auto p-5">
+        <div class="card-header">
+          <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
+          <h6 class="card-subtitle mb-2">
+            <span class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+          </h6>
+        </div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Metadata</h4>
+                <div class="table-responsive">
+                  <table name="tab" class="table table-hover table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Dataset</th>
+                        <td>COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Distribution</th>
+                        <td><a href=""class="text-info" target="_blank">CSV</a></td> <!-- rivedere link -->
+                      </tr>
+                      <tr>
+                        <th scope="row">Description</th>
+                        <td>Riepilogo nazionale quotidiano del monitoraggio sanitario che descrive il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19).</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Modified</th>
+                        <td>2021-12-10</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Subject</th>
+                        <td><a href="https://inspire.ec.europa.eu/theme/hh"class="text-info" target="_blank">Salute umana e sicurezza</a>, <a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Theme</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/data-theme/HEAL"class="text-info" target="_blank">Salute</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Rights Holder</th>
+                        <td><a href="https://www.protezionecivile.gov.it" class="text-info" target="_blank">PCM - Dipartimento della Protezione Civile</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">License</th>
+                        <td><a href="https://creativecommons.org/licenses/by/4.0/" class="text-info" target="_blank">CC BY 4.0</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Language</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Keyword</th>
+                        <td>Salute umana e sicurezza, human health, Nazionale, EU, opendata, covid-19</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </div>
+    </div>
 
-  <!-- I.STAT -->
-  <div id="option2" class="group container w-auto p-5">
-      <div class="card-header">
-        <label for="tab"><h2 class="card-title">I.Stat</h2></label>
-        <h6 class="card-subtitle mb-2">
-          <span class="text-warning"> <!-- rivedere numero stelle -->
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
-        </h6>
-      </div>
-      <div class="card-body">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
-              <div class="table-responsive">
-                <table name="tab" class="table table-hover table-responsive">
-                  <tbody>
-                    <tr>
-                      <th>Dataset</th>
-                      <td>Popolazione residente - bilancio</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Distribution</th>
-                      <td>CSV</td> <!-- link -->
-                    </tr>
-                    <tr>
-                      <th scope="row">Description</th>
-                      <td></td> <!-- ? -->
-                    </tr>
-                    <tr>
-                      <th scope="row">Modified</th>
-                      <td>2021-10-29</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Theme</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/SOCI"class="text-info" target="_blank">Population and Society</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Rights Holder</th>
-                      <td><a href="https://www.istat.it/it/" class="text-info" target="_blank">Istat – Istituto nazionale di statistica</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">License</th>
-                      <td><a href="https://creativecommons.org/licenses/by/3.0/it/" class="text-info" target="_blank">CC BY 3.0 IT</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Language</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
-                    </tr>
-                  </tbody>
-                </table>
+    <!-- I.STAT
+    ok tranne:
+    - link csv -->
+    <div id="option2" class="group container w-auto p-5">
+        <div class="card-header">
+          <label for="tab"><h2 class="card-title">I.Stat</h2></label>
+          <h6 class="card-subtitle mb-2">
+            <span class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+          </h6>
+        </div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Metadata</h4>
+                <div class="table-responsive">
+                  <table name="tab" class="table table-hover table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Dataset</th>
+                        <td>Popolazione residente - bilancio</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Distribution</th>
+                        <td>
+                          <a href=""class="text-info" target="_blank">Excel</a>,
+                          <a href=""class="text-info" target="_blank">CSV</a>,
+                          <a href=""class="text-info" target="_blank">PC-Axis</a>,
+                          <a href=""class="text-info" target="_blank">SDMX</a>
+                        </td> <!-- link -->
+                      </tr>
+                      <tr>
+                        <th scope="row">Description</th>
+                        <td>Il bilancio della popolazione residente che tiene conto dei risultati del Censimento permanente della popolazione.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Modified</th>
+                        <td>2021-10-29</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Theme</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/data-theme/SOCI"class="text-info" target="_blank">Population and Society</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Rights Holder</th>
+                        <td><a href="https://www.istat.it/it/" class="text-info" target="_blank">Istat – Istituto nazionale di statistica</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">License</th>
+                        <td><a href="https://creativecommons.org/licenses/by/3.0/it/" class="text-info" target="_blank">CC BY 3.0 IT</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Language</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </div>
+    </div>
 
-  <!-- AIR QUALITY E-REPORTING -->
-  <div id="option3" class="group container w-auto p-5">
-      <div class="card-header">
-        <label for="tab"><h2 class="card-title">Air Quality e-Reporting (AQ e-Reporting)</h2></label>
-        <h6 class="card-subtitle mb-2">
-          <span class="text-warning">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </span>
-          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
-        </h6>
-      </div>
-      <div class="card-body">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <h4>Metadata <small><a target="_blank" class="text-info" href="">(machine-readable form)</a></small> </h4> <!-- link? -->
-              <div class="table-responsive">
-                <table name="tab" class="table table-hover table-responsive">
-                  <tbody>
-                    <tr>
-                      <th>Dataset</th>
-                      <td>Air quality annual statistics calculated by the EEA</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Distribution</th>
-                      <td>CSV</td> <!-- link -->
-                    </tr>
-                    <tr>
-                      <th scope="row">Description</th>
-                      <td>The annual aggregated air quality values have been calculated by EEA based on the primary observations (time series) uploaded by countries into CDR and successfully tested by automated QC.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Modified</th>
-                      <td>2022-02-02</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Theme</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/ENVI"class="text-info" target="_blank">Environment</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Rights Holder</th>
-                      <td><a href="https://ec.europa.eu/info/index_en" class="text-info" target="_blank">European Commission</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">License</th>
-                      <td><a href="" class="text-info" target="_blank"></a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Language</th>
-                      <td><a href="http://publications.europa.eu/resource/authority/language/ENG" class="text-info" target="_blank">ENG</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Keyword</th>
-                      <td>air, air quality, geospatial data, point data, priority data flow</td>
-                    </tr>
-
-                  </tbody>
-                </table>
+    <!-- AIR QUALITY E-REPORTING
+    ok tranne:
+    - link distribuzione
+    - rivedere tutti i campi -->
+    <div id="option3" class="group container w-auto p-5">
+        <div class="card-header">
+          <label for="tab"><h2 class="card-title">Air Quality e-Reporting</h2></label>
+          <h6 class="card-subtitle mb-2">
+            <span class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+          </h6>
+        </div>
+        <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Metadata</h4>
+                <div class="table-responsive">
+                  <table name="tab" class="table table-hover table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Dataset</th>
+                        <td>Air quality annual statistics calculated by the EEA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Distribution</th>
+                        <td><a href=""class="text-info" target="_blank">CSV</a>,
+                            <a href=""class="text-info" target="_blank">TSV</a>,
+                            <a href=""class="text-info" target="_blank">JSON</a></td> <!-- link -->
+                      </tr>
+                      <tr>
+                        <th scope="row">Description</th>
+                        <td>The annual aggregated air quality values have been calculated by EEA based on the primary observations (time series) uploaded by countries into CDR and successfully tested by automated QC.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Modified</th>
+                        <td>2022-02-02</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Theme</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/data-theme/ENVI"class="text-info" target="_blank">Environment</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Rights Holder</th>
+                        <td><a href="https://ec.europa.eu/info/index_en" class="text-info" target="_blank">European Commission</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">License</th>
+                        <td>EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (<a href="https://www.eea.europa.eu/legal/copyright" class="text-info" target="_blank">https://www.eea.europa.eu/legal/copyright</a>). Copyright holder: European Commission.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Language</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/language/ENG" class="text-info" target="_blank">ENG</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Keyword</th>
+                        <td>air, air quality, geospatial data, point data, priority data flow</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </div>
+    </div>
+
+</div>
 
   <footer class="footer mt-5 p-4 text-center py3 bg-light ">
    <div class="container">
@@ -288,14 +304,14 @@
 
 
   <script>
-  $(document).ready(function () {
-    $('.group').hide();
-    $('#option1').show();
-    $('#selectMe').change(function () {
+    $(document).ready(function () {
       $('.group').hide();
-      $('#'+$(this).val()).show();
-    })
-  });
+      $('#option1').show();
+      $('#selectMe').change(function () {
+        $('.group').hide();
+        $('#'+$(this).val()).show();
+      })
+    });
   </script>
 </body>
 </html>
