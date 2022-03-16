@@ -1,30 +1,33 @@
 var chart;
+
+// DESTROY CHART
 function destroyChart() {
   if (chart != null){
     chart.destroy();
   }
 }
+
+// UPDATE CHART
 function updateChart() {
   destroyChart();
   var v1 = document.getElementById('selectGraph1').value;
   var v2 = document.getElementById('selectGraph2').value;
 
+  // setting up the metadata of the selected datasets
   if (document.getElementById("description1") != null) {
     document.getElementById("description1").innerHTML = '<b>Description:</b>' + '<br /><p>' + labels[v1].description + '</p>';
   }
-
   if (document.getElementById("data-source1") != null) {
     document.getElementById("data-source1").innerHTML = '<b>Data source:</b>' + '<br /><p>' + labels[v1].source + '</p>';
   }
-
   if (document.getElementById("description2") != null) {
     document.getElementById("description2").innerHTML = '<b>Description:</b>' + '<br /><p>' + labels[v2].description + '</p>';
   }
-
   if (document.getElementById("data-source2") != null) {
     document.getElementById("data-source2").innerHTML = '<b>Data source:</b>' + '<br /><p>' + labels[v2].source + '</p>';
   }
 
+  // getting the data to show in the chart
   function chartData(features, prop) {
     properties = [];
 
@@ -35,6 +38,7 @@ function updateChart() {
     return properties;
   }
 
+  // getting italian regions names  for labeling
   function regionsNames(features) {
     names = [];
 
@@ -45,8 +49,7 @@ function updateChart() {
     return names;
   }
 
-  //console.log(v1)
-
+  // initializing the line chart
   chart = new Chart(document.getElementById("line-chart"), {
     type: 'line',
     data: {

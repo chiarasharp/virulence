@@ -8,7 +8,6 @@ function updateMap(v) {
 
   //var region_layer = new L.GeoJSON.AJAX(url_json_regions, region_style)
 
-
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
@@ -128,6 +127,7 @@ function updateMap(v) {
 
 
   var geojson;
+
   function resetHighlight(e) {
       geojson.setStyle(style);
       info.update();
@@ -144,13 +144,6 @@ function updateMap(v) {
           click: zoomToFeature
       });
   }
-
-  /*geojson = $.getJSON("regioni.geojson", function (data) { // pull data from external file
-     L.geoJson(data, {
-      style: style,
-      onEachFeature: onEachFeature
-    }).addTo(map);
-  });*/
 
   var legend = L.control({position: 'bottomright'});
 
