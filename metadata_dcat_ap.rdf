@@ -115,8 +115,8 @@
         <dct:identifier>2:POP</dct:identifier>
         <dct:title xml:lang="it">Popolazione residente - bilancio</dct:title>
         <dct:description xml:lang="it">Il bilancio della popolazione residente che tiene conto dei risultati del Censimento permanente della popolazione.</dct:description>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</dct:modified>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
         <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
         <dcat:distribution>
@@ -124,6 +124,28 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
             <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/> <!-- da rivedere -->
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+          </dcatapit:Distribution>
+        </dcat:distribution>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+    <!-- DATASET Superfici territoriali  -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>4:SUP</dct:identifier>
+        <dct:title xml:lang="it">Superfici territoriali</dct:title>
+        <dct:description xml:lang="it">La superficie nazionale che può variare negli anni per effetto degli arrotondamenti nel metodo di calcolo e della base censuaria di riferimento.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:distribution>
+          <dcatapit:Distribution>
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#"/> <!-- da rivedere -->
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
             <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
           </dcatapit:Distribution>
