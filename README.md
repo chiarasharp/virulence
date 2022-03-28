@@ -1,30 +1,29 @@
 # Virulence
 
+## 3. Table of Contents
+
+1. [Introduction](#introduction)
+2. [Scenario](#scenario)
+3. [Original Datasets and Mashup](#original-datasets-and-mashup)
+  1. [Original Datasets](#original-datasets)
+  2. [Mashup Dataset](#mashup-dataset)
+4. [Data Analysis](#data-analysis)
+  1. [Quality Analysis](#quality-analysis)
+  2. [Legal Analysis](#legal-analysis)
+  3. [Technical Analysis](#technical-analysis)
+  4. [Sustainability](#sustainability)
+5. [Website and Data Visualization](#website-and-data-visualization)
+6. [Conclusion](#conclusion)
+
 ## 1. Introduction
 the project was made for the open access course of unibo... made by chiara manca, luca tonti....
 
 ## 2. Scenario
 scenario of our project ...in 2020 covid started and blabla.
 
-## 3. Table of Contents
+## 3. Original Datasets and Mashup
 
-1. [Introduction](#introduction)
-2. [Scenario](#scenario)
-3. [Table of Contents](#table-of-contents)
-4. [Original Datasets and Mashup](#original-datasets-and-mashup)
-  1. [Original Datasets](#original-datasets)
-  2. [Mashup Dataset](#mashup-dataset)
-5. [Data Analysis](#data-analysis)
-  1. [Quality Analysis](#quality-analysis)
-  2. [Legal Analysis](#legal-analysis)
-  3. [Technical Analysis](#technical-analysis)
-  4. [Sustainability](#sustainability)
-6. [Website and Data Visualization](#website-and-data-visualization)
-7. [Conclusion](#conclusion)
-
-## 4. Original Datasets and Mashup
-
-### 4.1 Original Datasets
+### 3.1 Original Datasets
 
 The datasets used for our project. In the next sections we are going to analyze them from various points of view.
 |ID     |FILE                                  |DESCRIPTION                                                                                                                                                                                                |DATASET                                                              |CATALOGUE                                                              |URI                                                                                                                                                                       |LICENSE                                        |LAST UPDATE      |DOWNLOADED      |
@@ -35,7 +34,7 @@ The datasets used for our project. In the next sections we are going to analyze 
 
 
 
-### 4.2 Mashup Dataset
+### 3.2 Mashup Dataset
 
 ID: 0:VIR
 
@@ -49,27 +48,27 @@ Description: For each italian region the dataset contains: region name, region i
 
 Methodology: We manipulated and merged the data coming from the previously described datasets and followed the [italian guidelines for the enhancement of public information assets](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/index.html), pairing our merged data with the appropriate metadata about both the original and mashup datasets.
 
-## 5. Data Analysis
+## 4. Data Analysis
 
-### 5.1 Quality Analysis
+### 4.1 Quality Analysis
 
 linee guida valorizzazione patrimonio informativo pubblico
 
 accuracy, coherence, completeness, currentness
 
-### 5.2 Legal Analysis
+### 4.2 Legal Analysis
 
 privacy, license
 
-### 5.3 Technical Analysis
+### 4.3 Technical Analysis
 
 formats, metadata, uris, provenance
 
-### 5.4 Sustainability
+### 4.4 Sustainability
 
 about the maintenance of the catalogue and datasets
 
-## 6. Website and Data Visualization
+## 5. Website and Data Visualization
 
 In this section we present how we decided to visualize the data and metadata that compose our project, and the external resources used to do so.
 
@@ -92,5 +91,5 @@ For the Map section we used the following libraries and data:
 
 For the Graph section we used [Chart.js](https://www.chartjs.org), a library for simple, clean and engaging HTML5 based JavaScript charts.
 
-## 7. Conclusion
+## 6. Conclusion
 final considerations about what we gathered from our dataset, catalogue, project
