@@ -38,7 +38,7 @@
     <dcat:dataset>
       <dcatapit:Dataset rdf:about="https://geodati.gov.it/resource/id/PCM:COVID-19:05032020:093000">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-        <dct:identifier>PCM:COVID-19</dct:identifier>
+        <dct:identifier>1:COVID</dct:identifier>
         <dct:title xml:lang="it">COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0</dct:title>
         <dct:description xml:lang="it">Riepilogo nazionale quotidiano del monitoraggio sanitario che descrive il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19).</dct:description>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-10</dct:modified>
@@ -112,7 +112,7 @@
     <dcat:dataset>
       <dcatapit:Dataset rdf:about="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-        <dct:identifier>http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1</dct:identifier>
+        <dct:identifier>2:POP</dct:identifier>
         <dct:title xml:lang="it">Popolazione residente - bilancio</dct:title>
         <dct:description xml:lang="it">Il bilancio della popolazione residente che tiene conto dei risultati del Censimento permanente della popolazione.</dct:description>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-10-29</dct:modified>
@@ -146,7 +146,7 @@
     <dcat:dataset>
       <dcatapit:Dataset rdf:about="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-        <dct:identifier>https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html</dct:identifier>
+        <dct:identifier>3:PM10</dct:identifier>
         <dct:title>Air quality annual statistics calculated by the EEA</dct:title>
         <dct:description>The annual aggregated air quality values have been calculated by EEA based on the primary observations (time series) uploaded by countries into CDR and successfully tested by automated QC.</dct:description>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-18</dct:modified>
