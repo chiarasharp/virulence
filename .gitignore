@@ -5,3 +5,4 @@ Gemfile
 Gemfile.lock
 datasets/.ipynb_checkpoints
 datasets/.DS_Store
+.ipynb_checkpoints

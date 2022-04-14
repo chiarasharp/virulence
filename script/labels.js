@@ -34,5 +34,11 @@ var labels = {
     'type' : 'people per sq. km of land area.',
     'description':'The population density (2019), for every italian region.',
     'source': '<a href="http://dati.istat.it" target="_blank" class="text-info">I.Stat</a> – <a href="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1" target="_blank" class="text-info">Popolazione residente - bilancio</a><br><a href="http://dati.istat.it" target="_blank" class="text-info">I.Stat</a> – <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#" target="_blank" class="text-info">Superfici territoriali</a>'
+  },
+  'age_mean':{
+    'title':'Age mean (2019)',
+    'type' : 'years old.',
+    'description':'The age mean (2019), for every italian region.',
+    'source': '<a href="http://dati.istat.it" target="_blank" class="text-info">I.Stat</a> – <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#" target="_blank" class="text-info">Indicatori demografici</a>'
   }
 }

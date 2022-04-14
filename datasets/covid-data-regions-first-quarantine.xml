@@ -3,123 +3,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:virulence="http://www.chiarasharp.github.io/virulence/"
 >
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Molise">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300516</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.2</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Umbria">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">870165</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.06</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Emilia-Romagna">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4457</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4055</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4464119</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.94</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Marche">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1692</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">994</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512672</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.92</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Piemonte">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7703</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3783</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4311217</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.84</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Veneto">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2660</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1869</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4879133</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.97</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Campania">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1268</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5712143</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.88</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Valle%20d%27Aosta/Vall%C3%A9e%20d%27Aoste">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125034</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.98</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Toscana">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1013</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3692555</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.74</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Sardegna">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1611621</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.09</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Friuli-Venezia%20Giulia">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">412</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1206216</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.24</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Abruzzo">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">398</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293941</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.11</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Calabria">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1894110</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.09</virulence:hasPM10MeanLevel>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Trentino-Alto%20Adige/S%C3%BCdtirol">
     <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</virulence:hasIstatCode>
     <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">730</virulence:hasTotPositives>
@@ -128,15 +11,6 @@
     <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</virulence:hasTotPositivesFor100000>
     <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</virulence:hasDeathsFor100000>
     <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.57</virulence:hasPM10MeanLevel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Sicilia">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1453</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4875290</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.75</virulence:hasPM10MeanLevel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Puglia">
     <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</virulence:hasIstatCode>
@@ -147,6 +21,33 @@
     <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</virulence:hasDeathsFor100000>
     <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.51</virulence:hasPM10MeanLevel>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Piemonte">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7703</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3783</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4311217</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.84</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Molise">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300516</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.2</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Veneto">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2660</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1869</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4879133</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.97</virulence:hasPM10MeanLevel>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Liguria">
     <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasIstatCode>
     <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1624</virulence:hasTotPositives>
@@ -156,14 +57,59 @@
     <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</virulence:hasDeathsFor100000>
     <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.46</virulence:hasPM10MeanLevel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Lazio">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3569</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5755700</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</virulence:hasTotPositivesFor100000>
-    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.86</virulence:hasPM10MeanLevel>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Basilicata">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553254</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.7</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Emilia-Romagna">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4457</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4055</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4464119</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.94</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Sicilia">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1453</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4875290</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.75</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Umbria">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">870165</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.06</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Marche">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1692</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">994</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512672</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.92</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Toscana">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1013</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3692555</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.74</virulence:hasPM10MeanLevel>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Lombardia">
     <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</virulence:hasIstatCode>
@@ -174,13 +120,67 @@
     <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158</virulence:hasDeathsFor100000>
     <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.93</virulence:hasPM10MeanLevel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Basilicata">
-    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</virulence:hasIstatCode>
-    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</virulence:hasTotPositives>
-    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeaths>
-    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553254</virulence:hasPopulation>
-    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasTotPositivesFor100000>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Calabria">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1894110</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasTotPositivesFor100000>
     <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</virulence:hasDeathsFor100000>
-    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.7</virulence:hasPM10MeanLevel>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.09</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Campania">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1268</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5712143</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.88</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Abruzzo">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">398</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293941</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.11</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Friuli-Venezia%20Giulia">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">412</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1206216</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.24</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Valle%20d%27Aosta/Vall%C3%A9e%20d%27Aoste">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125034</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.98</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Sardegna">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1611621</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.09</virulence:hasPM10MeanLevel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.chiarasharp.github.io/virulence/Lazio">
+    <virulence:hasIstatCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</virulence:hasIstatCode>
+    <virulence:hasTotPositives rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3569</virulence:hasTotPositives>
+    <virulence:hasDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</virulence:hasDeaths>
+    <virulence:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5755700</virulence:hasPopulation>
+    <virulence:hasTotPositivesFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</virulence:hasTotPositivesFor100000>
+    <virulence:hasDeathsFor100000 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</virulence:hasDeathsFor100000>
+    <virulence:hasPM10MeanLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.86</virulence:hasPM10MeanLevel>
   </rdf:Description>
 </rdf:RDF>

@@ -152,6 +152,28 @@
         </dcat:distribution>
       </dcatapit:Dataset>
     </dcat:dataset>
+    <!-- DATASET Indicatori demografici  -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>5:ETA</dct:identifier>
+        <dct:title xml:lang="it">Indicatori demografici</dct:title>
+        <dct:description xml:lang="it">Stime dei principali indicatori statistici finalizzati allo studio delle tendenze demografiche del Paese.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:distribution>
+          <dcatapit:Distribution>
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#"/> <!-- da rivedere -->
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+          </dcatapit:Distribution>
+        </dcat:distribution>
+      </dcatapit:Dataset>
+    </dcat:dataset>
   </dcatapit:Catalog>
 
   <!-- CATALOGO Air Quality e-Reportings -->
