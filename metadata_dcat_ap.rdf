@@ -156,7 +156,7 @@
     <dcat:dataset>
       <dcatapit:Dataset rdf:about="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#">
         <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-        <dct:identifier>5:ETA</dct:identifier>
+        <dct:identifier>5:AGE</dct:identifier>
         <dct:title xml:lang="it">Indicatori demografici</dct:title>
         <dct:description xml:lang="it">Stime dei principali indicatori statistici finalizzati allo studio delle tendenze demografiche del Paese.</dct:description>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></dct:modified>
