@@ -21,10 +21,14 @@
 6. [Conclusion](#conclusion)
 
 ## <a name="#introduction"> 1. Introduction</a>
-the project was made for the open access course of unibo... made by chiara manca, luca tonti....
+The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy throughout the last 2 years (2020-2021), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process. We are going to take into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
+
+- Metadata, featuring the Virulence dataset compared with original datasets from other sources
+- Visualization, where data results are represented through comprehensible maps and graphs
+- Documentation, where every step of the research is explained
+- License, a page featuring all the legal permits the projects needed to be completed
 
 ## <a name="#scenario"> 2. Scenario</a>
-scenario of our project ...in 2020 covid started and blabla.
 
 
 ## <a name="#original-datasets-and-mashup">3. Original Datasets and Mashup</a>
