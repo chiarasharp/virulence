@@ -33,11 +33,11 @@ Why did COVID-19 spread so rapidly in Italy, making us reach one of the highest 
 
 Now we are gonna discuss the many aspects taken into consideration during the research. The following list has been considered for all the 20 italian regions:
 
-Air pollution due to PM10 (<a href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html" rel="nofollow">link here</a>)
-Winter temperatures ()
-Mobility (<a href="https://www.google.com/covid19/mobility/" rel="nofollow">link here</a>)
-Density and age of population (<a href="https://data.humdata.org/dataset/italy-high-resolution-population-density-maps-demographic-estimates" rel="nofollow">link here</a>)
-Density of health facilities()
+- Air pollution due to PM10 (<a href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html" rel="nofollow">link here</a>)
+- Winter temperatures ()
+- Mobility (<a href="https://www.google.com/covid19/mobility/" rel="nofollow">link here</a>)
+- Density and age of population (<a href="https://data.humdata.org/dataset/italy-high-resolution-population-density-maps-demographic-estimates" rel="nofollow">link here</a>)
+- Density of health facilities()
 
 ## <a name="#original-datasets-and-mashup">3. Original Datasets and Mashup</a>
 
