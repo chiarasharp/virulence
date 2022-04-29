@@ -90,11 +90,11 @@ The initial datasets have been subjected to a quality analysis, following the pr
 
 <table>
 <tr><td></td><td>Accuracy</td><td>Coherence</td><td>Completeness</td><td>Currentness</td></tr>
-<tr><td>Dato 1,1</td><td>Dato 1,2</td><td>Dato 1,3</td><td>Dato 1,4</td></tr>
-<tr><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>Dato 2,4</td></tr>
-<tr><td>Dato 3,1</td><td>Dato 3,2</td><td>Dato 3,3</td><td>Dato 3,4</td></tr>
-<tr><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>Dato 4,4</td></tr>
-<tr><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>Dato 5,4</td></tr>
+<tr><td>Air pollution due to PM10</td><td>Dato 1,1</td><td>Dato 1,2</td><td>Dato 1,3</td><td>Dato 1,4</td></tr>
+<tr><td>Winter temperatures</td><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>Dato 2,4</td></tr>
+<tr><td>Mobility</td><td>Dato 3,1</td><td>Dato 3,2</td><td>Dato 3,3</td><td>Dato 3,4</td></tr>
+<tr><td>Density and age of population</td><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>Dato 4,4</td></tr>
+<tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>Dato 5,4</td></tr>
 </table>
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
