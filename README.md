@@ -87,6 +87,15 @@ We manipulated and merged the data coming from the previously described datasets
 
 <!-- Linee guida valorizzazione patrimonio informativo pubblico. Accuracy, coherence, completeness, currentness -->
 The initial datasets have been subjected to a quality analysis, following the principles indicated in the "<a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/index.html" rel="nofollow">linee guida nazionali per la valorizzazione del patrimonio informativo pubblico</a>":
+
+<table>
+<tr><td></td><td>Accuracy</td><td>Coherence</td><td>Completeness</td><td>Currentness</td></tr>
+<tr><td>Dato 1,1</td><td>Dato 1,2</td><td>Dato 1,3</td><td>Dato 1,4</td></tr>
+<tr><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>Dato 2,4</td></tr>
+<tr><td>Dato 3,1</td><td>Dato 3,2</td><td>Dato 3,3</td><td>Dato 3,4</td></tr>
+<tr><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>Dato 4,4</td></tr>
+<tr><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>Dato 5,4</td></tr>
+</table>
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
