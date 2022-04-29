@@ -21,7 +21,7 @@
 6. [Conclusion](#conclusion)
 
 ## <a name="#introduction"> 1. Introduction</a>
-The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy throughout the last 2 years (2020-2021), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process. We are going to take into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
+The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy throughout the last 2 years (2020-2021), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process. We took into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
 
 - Metadata, featuring the Virulence dataset compared with original datasets from other sources
 - Visualization, where data results are represented through comprehensible maps and graphs
@@ -34,10 +34,12 @@ Why did COVID-19 spread so rapidly in Italy, making us reach one of the highest 
 Now we are gonna discuss the many aspects taken into consideration during the research. The following list has been considered for all the 20 italian regions:
 
 - Air pollution due to PM10 (<a href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html" rel="nofollow">link here</a>)
-- Winter temperatures ()
+- Winter temperatures (<a href="https://www.istat.it/it/archivio/251803" rel="nofollow">link here</a>)
 - Mobility (<a href="https://www.google.com/covid19/mobility/" rel="nofollow">link here</a>)
 - Density and age of population (<a href="https://data.humdata.org/dataset/italy-high-resolution-population-density-maps-demographic-estimates" rel="nofollow">link here</a>)
-- Density of health facilities()
+- Density of health facilities(<a href="https://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=2" rel="nofollow">link here</a>)
+
+All these factors have been considered only within 2019, that is shortly before the official appearance of COVID-19. We did so in order to have an idea of ​​how much Italy was actually predisposed for an extensive spread of the virus.
 
 ## <a name="#original-datasets-and-mashup">3. Original Datasets and Mashup</a>
 
@@ -83,17 +85,15 @@ We manipulated and merged the data coming from the previously described datasets
 ## <a name="#data-analysis"> 4. Data Analysis</a>
 ### <a name="#quality-analysis"> 4.1 Quality Analysis</a>
 
-linee guida valorizzazione patrimonio informativo pubblico
-
-accuracy, coherence, completeness, currentness
-
+<!-- Linee guida valorizzazione patrimonio informativo pubblico. Accuracy, coherence, completeness, currentness -->
+The initial datasets have been subjected to a quality analysis, following the principles indicated in the "<a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/index.html" rel="nofollow">linee guida nazionali per la valorizzazione del patrimonio informativo pubblico</a>":
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
-privacy, license
+<!-- privacy, license -->
 
 ### <a name="#technical-analysis"> 4.3 Technical Analysis</a>
 
-formats, metadata, uris, provenance
+<!-- Formats, metadata, uris, provenance -->
 
 #### <a name="#covid"> 1:COVID</a> 
 
