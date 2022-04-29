@@ -96,6 +96,15 @@ The initial datasets have been subjected to a quality analysis, following the pr
 <tr><td>Density and age of population</td><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>Dato 4,4</td></tr>
 <tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>Dato 5,4</td></tr>
 </table>
+
+We list below a series of reasons for the above evaluations:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
