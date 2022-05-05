@@ -89,22 +89,20 @@ We manipulated and merged the data coming from the previously described datasets
 The initial datasets have been subjected to a quality analysis, following the principles indicated in the "<a href="https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/index.html" rel="nofollow">linee guida nazionali per la valorizzazione del patrimonio informativo pubblico</a>":
 
 <table>
-<tr><td></td><td>Accuracy</td><td>Coherence</td><td>Completeness</td><td>Currentness</td></tr>
-<tr><td>Air pollution due to PM10</td><td>Dato 1,1</td><td>Dato 1,2</td><td>Dato 1,3</td><td>Dato 1,4</td></tr>
-<tr><td>Winter temperatures</td><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>Dato 2,4</td></tr>
-<tr><td>Mobility</td><td>Dato 3,1</td><td>Dato 3,2</td><td>Dato 3,3</td><td>Dato 3,4</td></tr>
-<tr><td>Density and age of population</td><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>Dato 4,4</td></tr>
-<tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>Dato 5,4</td></tr>
+<tr><td></td><td>Completeness</td><td>Accuracy</td><td>Coherence</td><td>Currentness</td></tr>
+<tr><td>Air pollution due to PM10</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+<tr><td>Winter temperatures</td><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>No</td></tr>
+<tr><td>Mobility</td><td>Yes</td><td>No</td><td>Dato 3,3</td><td>No</td></tr>
+<tr><td>Density and age of population</td><td>Dato 4,1</td><td>Dato 4,2</td><td>Dato 4,3</td><td>No</td></tr>
+<tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>No</td></tr>
 </table>
 
-We list below a series of reasons for the above evaluations:
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+Below we justify our assessments for every dataset:
+- Air pollution due to PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. The whole dataset is only updated to 2019, but this was a considered choice, given that we wanted to analyze the overall situation during the year before the pandemic. All these datasets are inedeed deliberately related to 2019.
+- Winter temperatures - 
+- Mobility - Info about this data is quite accurate. Every region's mobility is described in detail, divided into suburbs and center, then we see a region identification code followed by the date of the measurement and the relative coordinate. 
+- Density and age of population - 
+- Density of health facilities - 
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
