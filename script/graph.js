@@ -65,7 +65,7 @@ function updateChart() {
       },
       {
         label: labels[v2].title,
-        borderColor: "#f367a1",
+        borderColor: "#9e153b",
         fill: true,
         lineTension: 0.2,
         data: chartData(regionsData['features'], v2),
