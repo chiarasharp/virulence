@@ -21,12 +21,12 @@
 6. [Conclusion](#conclusion)
 
 ## <a name="#introduction"> 1. Introduction</a>
-The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy throughout the last 2 years (2020-2021), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process. We took into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
+The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy in the first wave of the pandemic (february to may 2020), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process, all of this by looking at 2019 data. We took into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
 
-- Metadata, featuring the Virulence dataset compared with original datasets from other sources
-- Visualization, where data results are represented through comprehensible maps and graphs
-- Documentation, where every step of the research is explained
-- License, a page featuring all the legal permits the projects needed to be completed
+- Metadata, featuring the metadata of Virulence dataset and the datasets from the primary sources;
+- Visualization, where data results are represented through comprehensible maps and graphs;
+- Documentation, where every step of the research is explained and where we analyze the collected data;
+- License, the license of our project.
 
 ## <a name="#scenario"> 2. Scenario</a>
 Why did COVID-19 spread so rapidly in Italy, making us reach one of the highest death rates in the world? There was the need to look at the conditions that made it possible, gathering information through data and articles from multiple sources. It is often demonstrated that the most relevant events may originate from the most unexpected causes. We will indeed have the chance to look at them carefully.
@@ -99,10 +99,10 @@ The initial datasets have been subjected to a quality analysis, following the pr
 
 Below we justify our assessments for every dataset:
 - Air pollution due to PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. The whole dataset is only updated to 2019, but this was a considered choice, given that we wanted to analyze the overall situation during the year before the pandemic. All these datasets are inedeed deliberately related to 2019.
-- Winter temperatures - 
+- Winter temperatures -
 - Mobility - Info about this data is quite accurate. Every region's mobility is described in detail, divided into suburbs and center, then we see a region identification code followed by the date of the measurement and the relative coordinate. A long and not so clear data description on top of the list makes it difficult to distinguish each single data.
 - Density and age of population - The only information reported is about latitude and longitude.
-- Density of health facilities - 
+- Density of health facilities -
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
@@ -112,7 +112,7 @@ Below we justify our assessments for every dataset:
 
 <!-- Formats, metadata, uris, provenance -->
 
-#### <a name="#covid"> 1:COVID</a> 
+#### <a name="#covid"> 1:COVID</a>
 
 **Formats**:
 
@@ -122,7 +122,7 @@ Below we justify our assessments for every dataset:
 
 The [COVID-19 Github repository](https://github.com/pcm-dpc/COVID-19) made available by the italian Protezione Civile.
 
-**Metadata**: 
+**Metadata**:
 
 We first found the metadata available in the same repository (this [XML file](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/metadata/covid-19-monitoraggio.xml)), which was not in the DCAT-AP standard but in the RNDT standard, which is a standard used for territorial data in Italy.
 
@@ -203,7 +203,7 @@ There is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ash
 
 about the maintenance of the catalogue and datasets
 
-## <a name="#website-and-data-visualization"> 5. Website and Data Visualization</a> 
+## <a name="#website-and-data-visualization"> 5. Website and Data Visualization</a>
 
 In this section we present how we decided to visualize the data and metadata that compose our project, and the external resources used to do so.
 
@@ -228,5 +228,5 @@ For the Map section we used the following libraries and data:
 
 For the Graph section we used [Chart.js](https://www.chartjs.org), a library for simple, clean and engaging HTML5 based JavaScript charts.
 
-## <a name="#conclusion"> 6. Conclusion</a> 
+## <a name="#conclusion"> 6. Conclusion</a>
 final considerations about what we gathered from our dataset, catalogue, project
