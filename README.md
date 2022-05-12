@@ -35,7 +35,6 @@ Now we are gonna discuss the many aspects taken into consideration during the re
 
 - Air pollution due to PM10 (<a href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html" rel="nofollow">link here</a>)
 - Winter temperatures (<a href="https://www.istat.it/it/archivio/251803" rel="nofollow">link here</a>)
-- Mobility (<a href="https://www.google.com/covid19/mobility/" rel="nofollow">link here</a>)
 - Density and age of population (<a href="https://data.humdata.org/dataset/italy-high-resolution-population-density-maps-demographic-estimates" rel="nofollow">link here</a>)
 - Density of health facilities(<a href="https://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=2" rel="nofollow">link here</a>)
 
@@ -100,7 +99,6 @@ The initial datasets have been subjected to a quality analysis, following the pr
 Below we justify our assessments for every dataset:
 - Air pollution due to PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. The whole dataset is only updated to 2019, but this was a considered choice, given that we wanted to analyze the overall situation during the year before the pandemic. All these datasets are inedeed deliberately related to 2019.
 - Winter temperatures -
-- Mobility - Info about this data is quite accurate. Every region's mobility is described in detail, divided into suburbs and center, then we see a region identification code followed by the date of the measurement and the relative coordinate. A long and not so clear data description on top of the list makes it difficult to distinguish each single data.
 - Density and age of population - The only information reported is about latitude and longitude.
 - Density of health facilities -
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>

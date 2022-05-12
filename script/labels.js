@@ -41,4 +41,11 @@ var labels = {
     'description':'The age mean (2019), for every italian region.',
     'source': '<a href="http://dati.istat.it" target="_blank" class="text-info">I.Stat</a> – <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#" target="_blank" class="text-info">Indicatori demografici</a>'
   }
+  ,
+  'hospital_count':{
+    'title':'Hospital count (2019)',
+    'type' : 'hospitals.',
+    'description':'The number of hospital (2019), for every italian region except Valle d\'Aosta, Trentino-Alto Adige, Molise and Abruzzo because of missing data from the original source.',
+    'source': '<a href="www.dati.salute.gov.it" target="_blank" class="text-info">Ministero della Salute</a> – <a href="http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp" target="_blank" class="text-info">Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici (anche costituiti in fondazione)</a>'
+  }
 }
