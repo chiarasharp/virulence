@@ -48,4 +48,11 @@ var labels = {
     'description':'The number of hospital (2019), for every italian region except Valle d\'Aosta, Trentino-Alto Adige, Molise and Abruzzo because of missing data from the original source.',
     'source': '<a href="www.dati.salute.gov.it" target="_blank" class="text-info">Ministero della Salute</a> – <a href="http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp" target="_blank" class="text-info">Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici (anche costituiti in fondazione)</a>'
   }
+  ,
+  'temperature_mean':{
+    'title':'Temperature mean (2019)',
+    'type' : 'Celsius degrees.',
+    'description':'The temperature mean (2019), for every italian region.',
+    'source': '<a href="" target="_blank" class="text-info"></a> – <a href="" target="_blank" class="text-info"></a>'
+  }
 }
