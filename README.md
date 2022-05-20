@@ -35,7 +35,6 @@ Now we are gonna discuss the many aspects taken into consideration during the re
 
 - Air pollution due to PM10 (<a href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html" rel="nofollow">link here</a>)
 - Winter temperatures (<a href="https://www.istat.it/it/archivio/251803" rel="nofollow">link here</a>)
-- Mobility (<a href="https://www.google.com/covid19/mobility/" rel="nofollow">link here</a>)
 - Density and age of population (<a href="https://data.humdata.org/dataset/italy-high-resolution-population-density-maps-demographic-estimates" rel="nofollow">link here</a>)
 - Density of health facilities(<a href="https://www.dati.salute.gov.it/dati/dettaglioDataset.jsp?menu=dati&idPag=2" rel="nofollow">link here</a>)
 
@@ -92,7 +91,6 @@ The initial datasets have been subjected to a quality analysis, following the pr
 <tr><td></td><td>Completeness</td><td>Accuracy</td><td>Coherence</td><td>Currentness</td></tr>
 <tr><td>Air pollution due to PM10</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
 <tr><td>Winter temperatures</td><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>No</td></tr>
-<tr><td>Mobility</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
 <tr><td>Density and age of population</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
 <tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>No</td></tr>
 </table>
@@ -100,13 +98,45 @@ The initial datasets have been subjected to a quality analysis, following the pr
 Below we justify our assessments for every dataset:
 - Air pollution due to PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. The whole dataset is only updated to 2019, but this was a considered choice, given that we wanted to analyze the overall situation during the year before the pandemic. All these datasets are inedeed deliberately related to 2019.
 - Winter temperatures - 
-- Mobility - Info about this data is quite accurate. Every region's mobility is described in detail, divided into suburbs and center, then we see a region identification code followed by the date of the measurement and the relative coordinate. A long and not so clear data description on top of the list makes it difficult to distinguish each single data.
 - Density and age of population - The only information reported is about latitude and longitude.
 - Density of health facilities - 
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
+- Air pollution due to PM10 - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
+- Winter temperatures - #
+- Density and age of population - #
+- Density of health facilities - #
 
+Privacy
+Although it does not contain any direct reference to natural persons (e.g. name, address, driving license, detailed physical description), D1 includes indirect information from which it could still be possible to trace the individuals, in this case minors, referenced.
+
+This does not comply with different Italian acts and laws:
+
+DECRETO DEL PRESIDENTE DELLA REPUBBLICA 24 giugno 1998, n. 249 In particular art.2 comma 2: "La comunita' scolastica promuove la solidarieta' tra i suoi componenti e tutela il diritto dello studente alla riservatezza." and art.2 comma 7: "Gli studenti stranieri hanno diritto al rispetto della vita culturale e religiosa della comunita' alla quale appartengono. La scuola promuove e favorisce iniziative volte alla accoglienza e alla tutela della loro lingua e cultura e alla realizzazione di attivita' interculturali."
+
+DECRETO LEGISLATIVO 30 giugno 2003, n. 196 Art. 50 comma 1: "1. Il divieto di cui all'articolo 13 del decreto del Presidente della Repubblica 22 settembre 1988, n. 448, di pubblicazione e divulgazione con qualsiasi mezzo di notizie o immagini idonee a consentire l'identificazione di un minore si osserva anche in caso di coinvolgimento a qualunque titolo del minore in procedimenti giudiziari in materie diverse da quella penale."
+
+Some significant examples are:
+
+"[...] come nella classe dove essendoci un alunno affetto da ipoacusia; tutta la classe ha voluto integrare il proprio curriculum con l'apprendimento del LIS (linguaggio dei segni) supportati dall'assistente alla comunicazione."
+"Nell'anno scolastico in corso sono stati sospesi due alunni della scuola primaria per lesioni ai compagni."
+"Le rarissime situazioni nelle quali si evidenzia l'assoluta necessita' di 'ripetere l'anno' (quest'anno un alunno diversamente abile di quinta; lo scorso anno due alunni Rom; inseriti solo a meta' anno in quinta; che finalmente avevano cominciato venire a scuola volentieri!)"
+"La scarsa capacita' di concentrazione dei ragazzi e l'assenza delle famiglie; poco inclini ad alzare la voce quando e' necessario; portano al risultato che i ragazzi non ascoltano; a volte non riescono neanche a rimanere seduti al banco."
+"Nel corrente anno scolastico nel nostro istituto ci sono stati solo due alunni non ammessi: un alunno straniero che non ha praticamente frequentato e un altro che non ha raggiunto gli obiettivi minimi previsti."
+"Nel presente anno scolastico non sono stati ammessi alla classe successiva due alunni della scuola primaria [...]. La motivazione delle non ammissioni si puo' riassumere nei seguenti punti: mancato raggiungimento degli obiettivi minimi programmati assenze (non giustificate da un valido motivo) oltre il limite previsto a livello normativo"
+"Se si esclude un'alunna straniera che si e' ritirata per tornare in Romania (a.s. 2015/16), tutti gli alunni della Scuola primaria negli ultimi due anni scolastici sono stati ammessi alla classe successiva."
+"Solo un'alunna delle nostre classi quinte dell'a.s. 2015/16 non e' stata ammessa alla classe successiva nella scuola secondaria di primo grado nel corrente anno scolastico."
+"1 alunna disabile per fermo pedagogico e 4 trasferiti a.s. 2014/15"
+We propose three possible solutions:
+
+Remove all free-text explanations for school self-evaluation;
+Provide schools with pre-compiled questionnaire in place of guidelines;
+Check text semi-automatically before publication (most ideal in order not to loose interesting information, but also most expensive).
+Licenses
+D1, D2, D4.1 and D4.2 (MIUR) are licensed under the Italian Open Data License (IODL) v2.0, which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration. However, the whole website is covered by a "All rights reserved" copyright statement, which does not explicitly mentions the exclusion of the contents accompanied by a IODL 2.0 license.
+
+The metadata of D3 (MiBACT) do not specify a license e.g. by using the property dcterms:license (see http://dati.beniculturali.it/lodview/resource/datasetLuoghiDellaCultura.html). The website footer includes a license for all website contents (CC-BY-SA-3.0.) and points to a separate webpage which lists exceptions, among which is our "Luoghi culturali" dataset, licensed under a CC-BY 3.0.
 
 ### <a name="#technical-analysis"> 4.3 Technical Analysis</a>
 
