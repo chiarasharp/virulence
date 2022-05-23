@@ -21,12 +21,12 @@
 6. [Conclusion](#conclusion)
 
 ## <a name="#introduction"> 1. Introduction</a>
-The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy throughout the last 2 years (2020-2021), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process. We took into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
+The goal of this website is to explain, in a comprehensible way, the evolution of the disease COVID-19 in Italy in the first wave of the pandemic (february to may 2020), focusing our attention on the causes that made our country one of the most affected by the pandemic, and how these causes influenced each other in the process, all of this by looking at 2019 data. We took into consideration many aspects of the virus that have probably been underestimated or ignored at first, in order to provide people a clear idea of what COVID-19 is and which countermeasures could be adopted to deal with it. Virulence (that's the name of the project) aims to tell this story through a proper use of legal and ethical analysis, metadata exploitation and datasets cleaning, in order to provide a neat mashup of all the information sources gathered during the research steps. For convenience, the work has been split into 4 parts:
 
-- Metadata, featuring the Virulence dataset compared with original datasets from other sources
-- Visualization, where data results are represented through comprehensible maps and graphs
-- Documentation, where every step of the research is explained
-- License, a page featuring all the legal permits the projects needed to be completed
+- Metadata, featuring the metadata of Virulence dataset and the datasets from the primary sources;
+- Visualization, where data results are represented through comprehensible maps and graphs;
+- Documentation, where every step of the research is explained and where we analyze the collected data;
+- License, the license of our project.
 
 ## <a name="#scenario"> 2. Scenario</a>
 Why did COVID-19 spread so rapidly in Italy, making us reach one of the highest death rates in the world? There was the need to look at the conditions that made it possible, gathering information through data and articles from multiple sources. It is often demonstrated that the most relevant events may originate from the most unexpected causes. We will indeed have the chance to look at them carefully.
@@ -89,60 +89,34 @@ The initial datasets have been subjected to a quality analysis, following the pr
 
 <table>
 <tr><td></td><td>Completeness</td><td>Accuracy</td><td>Coherence</td><td>Currentness</td></tr>
-<tr><td>Air pollution due to PM10</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
-<tr><td>Winter temperatures</td><td>Dato 2,1</td><td>Dato 2,2</td><td>Dato 2,3</td><td>No</td></tr>
-<tr><td>Density and age of population</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
-<tr><td>Density of health facilities</td><td>Dato 5,1</td><td>Dato 5,2</td><td>Dato 5,3</td><td>No</td></tr>
+<tr><td>1:COVID</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>2:POP</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>3:PM10</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>4:SUP</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+<tr><td>5:AGE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
 </table>
 
 Below we justify our assessments for every dataset:
-- Air pollution due to PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. The whole dataset is only updated to 2019, but this was a considered choice, given that we wanted to analyze the overall situation during the year before the pandemic. All these datasets are inedeed deliberately related to 2019.
-- Winter temperatures - 
-- Density and age of population - The only information reported is about latitude and longitude.
-- Density of health facilities - 
+- 1:COVID - The dataset shows plenty of information divided by date, region code, latitude/longitude, and many other details regarding the patients' conditions, so it's way more than we actually needed to extrapolate. The whole dataset is updated to 2022, but we considered only the period between February and May 2020, because we wanted to focus on the first months of COVID-19's spread.
+- 2:POP - Provided by ISTAT, this dataset, like the previous one, is constantly updated, and it doesn't show any issue related to the aspects considered in the table above.
+- 3:PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. It's updated to 2022.
+- 4:SUP - Updated to the beginning of 2020, this dataset provides the total surface of every italian region, represented in hectares (ha) and square kilometers (kmq).
+- 5:AGE - Updated to 2021, the dataset features information about life expectation in Italy, depending on the age group, and the percentage of the same groups in the peninsula.
+
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
-- Air pollution due to PM10 - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
-- Winter temperatures - #
-- Density and age of population - #
-- Density of health facilities - #
-
-Privacy
-Although it does not contain any direct reference to natural persons (e.g. name, address, driving license, detailed physical description), D1 includes indirect information from which it could still be possible to trace the individuals, in this case minors, referenced.
-
-This does not comply with different Italian acts and laws:
-
-DECRETO DEL PRESIDENTE DELLA REPUBBLICA 24 giugno 1998, n. 249 In particular art.2 comma 2: "La comunita' scolastica promuove la solidarieta' tra i suoi componenti e tutela il diritto dello studente alla riservatezza." and art.2 comma 7: "Gli studenti stranieri hanno diritto al rispetto della vita culturale e religiosa della comunita' alla quale appartengono. La scuola promuove e favorisce iniziative volte alla accoglienza e alla tutela della loro lingua e cultura e alla realizzazione di attivita' interculturali."
-
-DECRETO LEGISLATIVO 30 giugno 2003, n. 196 Art. 50 comma 1: "1. Il divieto di cui all'articolo 13 del decreto del Presidente della Repubblica 22 settembre 1988, n. 448, di pubblicazione e divulgazione con qualsiasi mezzo di notizie o immagini idonee a consentire l'identificazione di un minore si osserva anche in caso di coinvolgimento a qualunque titolo del minore in procedimenti giudiziari in materie diverse da quella penale."
-
-Some significant examples are:
-
-"[...] come nella classe dove essendoci un alunno affetto da ipoacusia; tutta la classe ha voluto integrare il proprio curriculum con l'apprendimento del LIS (linguaggio dei segni) supportati dall'assistente alla comunicazione."
-"Nell'anno scolastico in corso sono stati sospesi due alunni della scuola primaria per lesioni ai compagni."
-"Le rarissime situazioni nelle quali si evidenzia l'assoluta necessita' di 'ripetere l'anno' (quest'anno un alunno diversamente abile di quinta; lo scorso anno due alunni Rom; inseriti solo a meta' anno in quinta; che finalmente avevano cominciato venire a scuola volentieri!)"
-"La scarsa capacita' di concentrazione dei ragazzi e l'assenza delle famiglie; poco inclini ad alzare la voce quando e' necessario; portano al risultato che i ragazzi non ascoltano; a volte non riescono neanche a rimanere seduti al banco."
-"Nel corrente anno scolastico nel nostro istituto ci sono stati solo due alunni non ammessi: un alunno straniero che non ha praticamente frequentato e un altro che non ha raggiunto gli obiettivi minimi previsti."
-"Nel presente anno scolastico non sono stati ammessi alla classe successiva due alunni della scuola primaria [...]. La motivazione delle non ammissioni si puo' riassumere nei seguenti punti: mancato raggiungimento degli obiettivi minimi programmati assenze (non giustificate da un valido motivo) oltre il limite previsto a livello normativo"
-"Se si esclude un'alunna straniera che si e' ritirata per tornare in Romania (a.s. 2015/16), tutti gli alunni della Scuola primaria negli ultimi due anni scolastici sono stati ammessi alla classe successiva."
-"Solo un'alunna delle nostre classi quinte dell'a.s. 2015/16 non e' stata ammessa alla classe successiva nella scuola secondaria di primo grado nel corrente anno scolastico."
-"1 alunna disabile per fermo pedagogico e 4 trasferiti a.s. 2014/15"
-We propose three possible solutions:
-
-Remove all free-text explanations for school self-evaluation;
-Provide schools with pre-compiled questionnaire in place of guidelines;
-Check text semi-automatically before publication (most ideal in order not to loose interesting information, but also most expensive).
-Licenses
-D1, D2, D4.1 and D4.2 (MIUR) are licensed under the Italian Open Data License (IODL) v2.0, which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration. However, the whole website is covered by a "All rights reserved" copyright statement, which does not explicitly mentions the exclusion of the contents accompanied by a IODL 2.0 license.
-
-The metadata of D3 (MiBACT) do not specify a license e.g. by using the property dcterms:license (see http://dati.beniculturali.it/lodview/resource/datasetLuoghiDellaCultura.html). The website footer includes a license for all website contents (CC-BY-SA-3.0.) and points to a separate webpage which lists exceptions, among which is our "Luoghi culturali" dataset, licensed under a CC-BY 3.0.
+- 1:COVID - Provided by the RNDT (Repertorio Nazionali dei Dati Territoriali), this dataset is subjected to a "<a href="https://creativecommons.org/licenses/by/4.0/deed.it" rel="nofollow">Creative Commons Attribution 4.0 International (CC BY 4.0).</a>" license: those who find it can host, modify and share its information, even for commercial use.
+- 2:POP - This dataset, provided by ISTAT, is subjected to a "<a href="http://creativecommons.org/licenses/by/3.0/it/" rel="nofollow">Creative Commons – Attribution – version 3.0.</a>" license. Hence, data is available for reproduction, distribution and broadcasting, without needing permission to create hypertext links to this site itself. The only condition is the source's citation.
+- 3:PM10 - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
+- 4:SUP - Same as the 2:POP dataset.
+- 5:AGE - Same as the 2:POP dataset.
 
 ### <a name="#technical-analysis"> 4.3 Technical Analysis</a>
 
 <!-- Formats, metadata, uris, provenance -->
 
-#### <a name="#covid"> 1:COVID</a> 
+#### <a name="#covid"> 1:COVID</a>
 
 **Formats**:
 
@@ -152,7 +126,7 @@ The metadata of D3 (MiBACT) do not specify a license e.g. by using the property 
 
 The [COVID-19 Github repository](https://github.com/pcm-dpc/COVID-19) made available by the italian Protezione Civile.
 
-**Metadata**: 
+**Metadata**:
 
 We first found the metadata available in the same repository (this [XML file](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/metadata/covid-19-monitoraggio.xml)), which was not in the DCAT-AP standard but in the RNDT standard, which is a standard used for territorial data in Italy.
 
@@ -233,7 +207,7 @@ There is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ash
 
 about the maintenance of the catalogue and datasets
 
-## <a name="#website-and-data-visualization"> 5. Website and Data Visualization</a> 
+## <a name="#website-and-data-visualization"> 5. Website and Data Visualization</a>
 
 In this section we present how we decided to visualize the data and metadata that compose our project, and the external resources used to do so.
 
@@ -258,5 +232,5 @@ For the Map section we used the following libraries and data:
 
 For the Graph section we used [Chart.js](https://www.chartjs.org), a library for simple, clean and engaging HTML5 based JavaScript charts.
 
-## <a name="#conclusion"> 6. Conclusion</a> 
-final considerations about what we gathered from our dataset, catalogue, project
+## <a name="#conclusion"> 6. Conclusion</a>
+It's been difficult to try our hand at this field, since many different factors needed to be considered in order to have even a vague idea of ​​the work done by the italian public authorities in the last 2 years. On the other side, having so much material available made the research easier and challenging. It wasn't always possible to obtain exhaustive details about metadata, while datasets needed a bit of maintenance before their actual use. Nonetheless, the website is able to provide a broad vision of the Italian situation between 2019 and 2020. Although certainly perfectible, the project has been completed in full compliance with web standards and the intellectual property of data, and we are quite happy and proud of the result.

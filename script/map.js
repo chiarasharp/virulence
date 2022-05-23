@@ -115,13 +115,13 @@ function updateMap(v) {
   step = interval(regionsData['features'], v)
 
   function getColor(d) {
-    return d > step[0]   ? '#620060' :
-             d > step[1]   ? '#9f0e7f' :
-             d > step[2]   ? '#d43491' :
-             d > step[3]   ? '#f367a1' :
-             d > step[4]   ? '#fa9cb4' :
-             d > step[5]   ? '#fdc5c4' :
-             d > step[6]   ? '#ffded9' :
+    return d > step[0]   ? '#9e153b' :
+             d > step[1]   ? '#a32145' :
+             d > step[2]   ? '#a92e50' :
+             d > step[3]   ? '#be5d78' :
+             d > step[4]   ? '#d38b9f' :
+             d > step[5]   ? '#ebc2ce' :
+             d > step[6]   ? '#fce8ee' :
                         '#fffff';
   }
 

@@ -34,7 +34,7 @@
   <!-- *NAVBAR* -->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Virulence</a>
+      <a class="navbar-brand" href="index.html" style="color:rgb(158, 21, 59);"><b>Virulence</b></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,25 +50,29 @@
             <a class="nav-link active" aria-current="page" href="visualization.html">Visualization</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="documentation.html">Documentation</a>
+            <a class="nav-link" href="https://github.com/chiarasharp/virulence/blob/main/README.md">Documentation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="README.md">License</a>
+          <a class="nav-link" href="LICENSE.md">License</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- *VISUALIZATION CONTENT* -->
-  <div class="p-5 bg-light text-center">
+  <div class="pt-5 text-center">
     <h1><b>Visualization</b></h1>
+    <h4 style="color:rgba(158, 21, 59);">How to make data understandable?</h4>
   </div>
-  <div class="container mt-5 text-center">
-    <h3>How to make data understandable?</h3><br>
-    <p>You can catch a glimpse of the COVID-19 situation in Italy in the past 2 years by looking at the charts below.</p>
-  </div><br><br><br>
+  <div class="container py-3 px-5 mx-5 text-center">
+    <p>You can catch a glimpse of how 2019 data impacted the COVID-19 situation in Italy during the first wave of the pandemic by looking at the charts below.</p>
+  </div>
 
+  <!-- MAP -->
+    <div class="row">
+      <div class="container text-center mt-3">
+          <h3>Map</h3>
+      </div>
     <!-- LEAFLET MAP -->
     <div class="col-sm-8">
       <div id="container-map" class="container mt-5">
@@ -80,7 +84,7 @@
     <div class="col-sm-4">
       <div class="container mt-5">
           <div class="bootstrap-select-wrapper">
-            <label class="text-center"for="dataset"><b>Select dataset:</b></label>
+            <label class="text-center"for="dataset" style="color:rgba(158, 21, 59);"><b>Select dataset:</b></label>
             <select name="data" id="selectData" class="form-select text-center" onchange="updateMap(value)">
               <option value="tot_positives">COVID-19 total positives</option>
               <option value="tot_positives_every_100000">COVID-19 total positives every 100.000</option>
@@ -89,14 +93,16 @@
               <option value="pm10_mean_level">PM10 annual mean level (2019)</option>
               <option value="population_density">Population density (2019)</option>
               <option value="age_mean">Age mean (2019)</option>
+              <option value="hospital_count">Hospital count (2019)</option>
+              <option value="temperature_mean">Temperature mean (2019)</option>
             </select>
           </div>
       </div>
 
-      <div class="container mt-3" id="description">
+      <div class="container mx-3 my-3" id="description">
           <b>Description:</b>
       </div>
-      <div class="container mt-3" id="data-source">
+      <div class="container mx-3 my-3" id="data-source">
           <b>Data source:</b>
       </div>
     </div>
@@ -112,7 +118,7 @@
     <!-- SELECT FOR GRAPH FIRST DS -->
     <div class="col-sm-6">
       <div class="bootstrap-select-wrapper mx-5 my-5">
-        <label class="text-center"for="dataset"><b>Select first dataset:</b></label>
+        <label class="text-center"for="dataset" style="color:rgba(158, 21, 59);"><b>Select first dataset:</b></label>
         <select name="dataset" id="selectGraph1" class="form-select text-center" onchange="updateChart()">
           <option value="tot_positives">COVID-19 total positives</option>
           <option value="tot_positives_every_100000">COVID-19 total positives every 100.000</option>
@@ -121,6 +127,8 @@
           <option value="pm10_mean_level">PM10 annual mean level (2019)</option>
           <option value="population_density">Population density (2019)</option>
           <option value="age_mean">Age mean (2019)</option>
+          <option value="hospital_count">Hospital count (2019)</option>
+          <option value="temperature_mean">Temperature mean (2019)</option>
         </select>
       </div>
       <div class="container mx-5 my-3" id="description1">
@@ -134,7 +142,7 @@
     <!-- SELECT FOR GRAPH SECOND DS -->
     <div class="col-sm-6">
       <div class="bootstrap-select-wrapper mx-5 my-5">
-        <label class="text-center"for="dataset"><b>Select second dataset:</b></label>
+        <label class="text-center"for="dataset" style="color:rgba(158, 21, 59);"><b>Select second dataset:</b></label>
         <select name="dataset" id="selectGraph2" class="form-select text-center" onchange="updateChart()">
           <option value="tot_positives">COVID-19 total positives</option>
           <option value="tot_positives_every_100000" selected>COVID-19 total positives every 100.000</option>
@@ -143,6 +151,8 @@
           <option value="pm10_mean_level">PM10 annual mean level (2019)</option>
           <option value="population_density">Population density (2019)</option>
           <option value="age_mean">Age mean (2019)</option>
+          <option value="hospital_count">Hospital count (2019)</option>
+          <option value="temperature_mean">Temperature mean (2019)</option>
         </select>
       </div>
       <div class="container mx-5 my-3" id="description2">
@@ -159,6 +169,7 @@
     </div>
 
   </div>
+    </div>
 
   <!-- *FOOTER* -->
   <footer class="footer mt-5 p-4 text-center py3 bg-light ">

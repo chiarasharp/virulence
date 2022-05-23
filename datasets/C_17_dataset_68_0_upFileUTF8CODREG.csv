@@ -1,0 +1,965 @@
+Anno;Codice Regione;Descrizione Regione;Codice Azienda;Codice struttura;Denominazione struttura;Indirizzo;Codice Comune;Comune;Sigla provincia;Codice tipo struttura;Descrizione tipo struttura
+2010;1;PIEMONTE             ;901;10901;AZIENDA OSPED.S.GIOVANNI BATTISTA DI TOR;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;1;PIEMONTE             ;902;10902;C.T.O.-MARIA ADELAIDE                   ;VIA ZURETTI GIANFRANCO                  ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2010;1;PIEMONTE             ;903;10903;AZIENDA OSPEDALIERA O.I.R.M.S.-SANT'ANNA;CORSO SPEZIA                            ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2010;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE                         ;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE                  ;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE;VIA COPPINO MICHELE                     ;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2010;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA                             ;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2010;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO  UMBERTO I - TORINO ;LARGO TURATI FILIPPO                    ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2011;1;PIEMONTE             ;901;10901;AZIENDA OSPED.S.GIOVANNI BATTISTA DI TOR;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2011;1;PIEMONTE             ;902;10902;C.T.O.-MARIA ADELAIDE                   ;VIA ZURETTI GIANFRANCO                  ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2011;1;PIEMONTE             ;903;10903;AZIENDA OSPEDALIERA O.I.R.M.S.-SANT'ANNA;CORSO SPEZIA                            ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2011;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE                         ;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2011;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE                  ;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2011;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE                     ;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2011;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA                             ;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2011;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO  UMBERTO I - TORINO ;LARGO TURATI FILIPPO                    ;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;920;30920;C.TRO BRONCOPNEUMOPATIE INRCA-CASATENOVO;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2010;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2010;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA  ;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2010;3;LOMBARDIA            ;924;30924;OSPEDALE POLICLINICO S. MATTEO - PAVIA  ;P.LE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2010;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2010;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA          ;VIA GRAMSCI 13;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;962;30962;A.O. OSPEDALI RIUNITI - BERGAMO         ;LARGO BAROZZI, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSP. MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA DAVERIO, 6;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;CORSO SEMPIONE, 82;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA C. BATTISTI,23;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;PIAZZA OSPEDALE, 10;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2010;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2010;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2010;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2010;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2010;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2010;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2010;6;FRIULI VENEZIA GIULIA;912;60912;AZIENDA OSPEDALIERA 'S. MARIA DEGLI ANGE;VIA MONTEREALE 24;93033;PORDENONE                               ;PN;0;Azienda Ospedaliera
+2010;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2010;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2010;7;LIGURIA              ;930;70930;AZ. OSPEDAL. UNIVERSITARIA SAN MARTINO;L.GO R.BENZI 10;10025;GENOVA                                  ;GE;0;Azienda Ospedaliera
+2010;7;LIGURIA              ;940;70940;IST.G.GASLINI;L.GO G. GASLINI                         ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2010;7;LIGURIA              ;950;70950;ISTITUTO NAZ. PER LA RICERCA SUL CANCRO;P.LE R. BENZI, 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2010;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2010;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2010;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;CORSO GIOVECCA, 203;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2010;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2010;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2010;9;TOSCANA              ;902;90902;SPEDALI RIUNITI                         ;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2010;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2010;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2010;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;V. MARTIRI 28 MARZO, 35;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2010;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2012;1;PIEMONTE             ;901;10901;AZIENDA OSPED.S.GIOVANNI BATTISTA DI TOR;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2012;1;PIEMONTE             ;902;10902;C.T.O.-MARIA ADELAIDE                   ;VIA ZURETTI GIANFRANCO, 29;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2012;1;PIEMONTE             ;903;10903;AZIENDA OSPEDALIERA O.I.R.M.S.-SANT'ANNA;CORSO SPEZIA, 60;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2012;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE, 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2012;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE, 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2012;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE, 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2012;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA, 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2012;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO  UMBERTO I - TORINO ;LARGO TURATI FILIPPO, 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2013;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE, 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2013;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE, 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2013;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE, 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2013;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA, 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2013;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO  UMBERTO I - TORINO ;LARGO TURATI FILIPPO, 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2013;1;PIEMONTE             ;909;10909;AO CITTA' DELLA SALUTE E DELLA SCIENZA D;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2014;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE, 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2014;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE;CORSO MAZZINI GIUSEPPE, 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2014;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE, 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2014;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA, 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2014;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO  UMBERTO I - TORINO ;LARGO TURATI FILIPPO, 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2014;1;PIEMONTE             ;909;10909;AO CITTA' DELLA SALUTE E DELLA SCIENZA D;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2015;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2015;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2015;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE, 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2015;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2015;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO UMBERTO I - TORINO  ;LARGO TURATI FILIPPO, 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2015;1;PIEMONTE             ;909;10909;AOU CITTA' DELLA SALUTE E DELLA SCIENZA;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2016;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2016;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2016;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2016;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2016;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO UMBERTO I - TORINO  ;LARGO TURATI FILIPPO 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2016;1;PIEMONTE             ;909;10909;AOU CITTA' DELLA SALUTE E DELLA SCIENZA;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2017;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2017;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2017;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2017;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2017;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO UMBERTO I - TORINO  ;LARGO TURATI FILIPPO 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2017;1;PIEMONTE             ;909;10909;AOU CITTA' DELLA SALUTE E DELLA SCIENZA ;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2018;1;PIEMONTE             ;904;10904;AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG;REGIONE GONZOLE 10;1171;ORBASSANO                               ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2018;1;PIEMONTE             ;905;10905;AZIENDA OSPED. NOVARA E GALLIATE        ;CORSO MAZZINI GIUSEPPE 18;3106;NOVARA                                  ;NO;2.2;Azienda Ospedaliera integrata con l'Università
+2018;1;PIEMONTE             ;906;10906;AZ. OSPEDAL. S. CROCE E CARLE           ;VIA COPPINO MICHELE 26;4078;CUNEO                                   ;CN;0;Azienda Ospedaliera
+2018;1;PIEMONTE             ;907;10907;AZ. SS.ANTONIO E BIAGIO E C.ARRIGO      ;VIA VENEZIA 16;6003;ALESSANDRIA                             ;AL;0;Azienda Ospedaliera
+2018;1;PIEMONTE             ;908;10908;OSPEDALE MAURIZIANO UMBERTO I - TORINO  ;LARGO TURATI FILIPPO 62;1272;TORINO                                  ;TO;0;Azienda Ospedaliera
+2018;1;PIEMONTE             ;909;10909;AOU CITTA' DELLA SALUTE E DELLA SCIENZA ;CORSO LAZZARI FRANCESCO DETTO IL BRAMANT;1272;TORINO                                  ;TO;2.2;Azienda Ospedaliera integrata con l'Università
+2010;11;MARCHE               ;901;110901;AZIENDA OSPEDALIERA SAN SALVATORE;PIAZZALE CINELLI 04;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2010;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2010;11;MARCHE               ;921;110921;INRCA ANCONA;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2010;11;MARCHE               ;921;110923;INRCA FERMO;CONTRADA MOSSA 2;109006;FERMO;FM;3.1;IRCCS pubblico
+2010;12;LAZIO                ;105;120912;INRCA;VIA CASSIA  1167;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2010;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;PIAZZA CARLO FORLANINI, 1;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2010;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2010;12;LAZIO                ;903;120903;AZ. COMPL. OSP. S.FILIPPO NERI;VIA MARTINOTTI N. 20;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2010;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2010;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2010;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2010;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2010;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;903;150903;AZIENDA OSPEDALIERA VINCENZO MONALDI;Piazzale Enrico de Ruggiero;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2010;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;15;CAMPANIA             ;909;150909;UNIV.STUDI NAPOLI-FEDERICO II-FAC.MEDIC.;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2010;15;CAMPANIA             ;912;150912;AZIENDA OSPEDALIERA COTUGNO;VIA G. QUAGLIARIELLO, 54;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2010;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIA S. F. HAHNEMANN                     ;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2010;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2010;16;PUGLIA               ;907;160907;AO Univ Consorziale Policlinico di Bari;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.2;Azienda Ospedaliera integrata con l'Università
+2010;16;PUGLIA               ;910;160910;Azienda Ospedaliera'Ospedali Riuniti';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2010;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';C/DA MACCHIA ROMANA POTENZA             ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2010;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2010;18;CALABRIA             ;201;180916;INRCA;C.DA MUOIO PICCOLO                      ;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2010;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2010;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2010;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EURPORA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2010;18;CALABRIA             ;915;180915;OSPEDALE BIANCHI - MELACRINO - MORELLI;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2010;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2010;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2010;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2010;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2010;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2010;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2010;20;SARDEGNA             ;108;200903;I.N.R.C.A.;VIA DELLE CICALE 11;92009;CAGLIARI                                ;CA;3.1;IRCCS pubblico
+2010;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2010;20;SARDEGNA             ;905;200905;AZIENDA OSPED. UNIVERSITARIA SASSARI;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2010;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;3;LOMBARDIA            ;920;30920;C.TRO BRONCOPNEUMOPATIE INRCA-CASATENOVO;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2011;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2011;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA  ;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2011;3;LOMBARDIA            ;924;30924;OSPEDALE POLICLINICO S. MATTEO - PAVIA  ;P.LE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2011;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2011;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA;LARGO UGO DOSSENA, 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;962;30962;A.O. OSPEDALI RIUNITI - BERGAMO         ;LARGO BAROZZI, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSP. MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA CASTELVETRO, 22;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;CORSO SEMPIONE, 82;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA SANTI COSMA E DAMIANO, 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;PIAZZA OSPEDALE, 10;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2011;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;920;30920;C.TRO BRONCOPNEUMOPATIE INRCA-CASATENOVO;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2012;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2012;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA  ;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2012;3;LOMBARDIA            ;924;30924;OSPEDALE POLICLINICO S. MATTEO - PAVIA  ;P.LE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2012;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2012;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA          ;LARGO UGO DOSSENA, 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;962;30962;A.O. OSPEDALI RIUNITI - BERGAMO         ;LARGO BAROZZI, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSP. MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA CASTELVETRO, 22;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;VIA PAPA GIOVANNI PAOLO II              ;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA SANTI COSMA E DAMIANO, 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;PIAZZA OSPEDALE, 10;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2012;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2013;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2013;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2013;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2013;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2013;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA          ;LARGO UGO DOSSENA, 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;962;30962;A.O. PAPA GIOVANNI XXIII                ;PIAZZA OMS, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSPEDALE MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA CASTELVETRO, 22;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;VIA PAPA GIOVANNI PAOLO II              ;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA SANTI COSMA E DAMIANO, 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;VIA FISSIRAGA, 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2013;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2014;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2014;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2014;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2014;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2014;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA          ;LARGO UGO DOSSENA, 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;962;30962;A.O. PAPA GIOVANNI XXIII                ;PIAZZA OMS, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSPEDALE MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA CASTELVETRO, 22;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;VIA PAPA GIOVANNI PAOLO II              ;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA SANTI COSMA E DAMIANO, 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;VIA FISSIRAGA, 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2014;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2015;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2015;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2015;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2015;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2015;3;LOMBARDIA            ;951;30951;A.O. OSP.CIRC. FONDAZIONE MACCHI-VARESE ;VIALE LUIGI BORRI, 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;952;30952;A.O. S.ANTONIO ABATE - GALLARATE        ;L.GO BOITO   2;12070;GALLARATE                               ;VA;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;953;30953;A.O. OSPEDALE DI CIRCOLO - BUSTO ARSIZIO;PIAZZALE  SOLARO, 3;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;954;30954;A.O. SPEDALI CIVILI - BRESCIA           ;PIAZZALE SPEDALI CIVILI, 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;955;30955;"A.O. ""MELLINO MELLINI"" - CHIARI         ";VIALE MAZZINI, 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;956;30956;A.O. DESENZANO DEL GARDA - DESENZANO G. ;LOCALITA' MONTECROCE                    ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;957;30957;A.O. ISTITUTI OSPEDALIERI - CREMONA     ;VIALE CONCORDIA, 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;958;30958;A.O. OSPEDALE MAGGIORE - CREMA          ;LARGO UGO DOSSENA, 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;959;30959;A.O. S.ANNA - COMO                      ;VIA NAPOLEONA, 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;960;30960;A.O. OSPEDALE DI LECCO - LECCO          ;VIA DELL'EREMO, 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;962;30962;A.O. PAPA GIOVANNI XXIII                ;PIAZZA OMS, 1;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;963;30963;A.O. OSP.TREVIGLIO CARAVAGGIO-TREVIGLIO ;PIAZZA OSPEDALE 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;964;30964;"A.O. ""BOLOGNINI"" - SERIATE              ";VIA PADERNO, 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;965;30965;"A.O. ""CARLO POMA"" - MANTOVA             ";VIA ALBERTONI, 1;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;966;30966;"A.O. ""LUIGI SACCO"" - MILANO             ";VIA S. GIOVANNI BATTISTA GRASSI, 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;967;30967;"A.O. ""OSP.NIGUARDA CA'GRANDA""-MILANO    ";PIAZZA OSPEDALE MAGGIORE,3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;968;30968;"A.O. ""IST.CLIN.PERFEZIONAMENTO""-MILANO  ";VIA CASTELVETRO, 22;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;969;30969;A.O. FATEBENEFRATELLI E OFTALMICO-MILANO;CORSO DI PORTA NUOVA, 23;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;970;30970;"A.O. ""SAN PAOLO"" - MILANO               ";VIA A. DI RUDINI', 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;971;30971;A.O. IST.ORTOPEDICO GAETANO PINI-MILANO ;PIAZZA CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;972;30972;"A.O. ""S.CARLO BORROMEO"" - MILANO        ";VIA PIO II, 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;973;30973;A.O. OSPEDALE CIVILE - LEGNANO          ;VIA PAPA GIOVANNI PAOLO II              ;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;974;30974;"A.O. ""G. SALVINI"" - GARBAGNATE          ";VIALE FORLANINI, 121;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;975;30975;A.O. OSPEDALE DI CIRCOLO - MELEGNANO    ;VIA PANDINA, 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;976;30976;A.O. OSPEDALE CIVILE - VIMERCATE        ;VIA SANTI COSMA E DAMIANO, 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;977;30977;"A.O. ""S.GERARDO"" - MONZA                ";VIA SOLFERINO, 16;108033;MONZA;MB;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;978;30978;A.O. DELLA PROVINCIA DI LODI            ;VIA FISSIRAGA, 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;979;30979;A.O. DELLA PROVINCIA DI PAVIA           ;VIALE REPUBBLICA, 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2015;3;LOMBARDIA            ;980;30980;A.O. VALTELLINA E VALCHIAVENNA          ;VIA STELVIO, 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;701;30701;ASST GRANDE OSPEDALE METROPOLITANO NIGUA;PIAZZA OSPEDALE MAGGIORE N. 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;702;30702;ASST SANTI PAOLO E CARLO                ;VIA A. DI RUDIN¿ N. 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;703;30703;ASST FATEBENEFRATELLI SACCO             ;VIA G.B. GRASSI N. 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;704;30704;ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO ;PIAZZA A. CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;705;30705;ASST OVEST MILANESE                     ;VIA PAPA GIOVANNI PAOLO II C.P. 3;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;706;30706;ASST RHODENSE                           ;VIALE FORLANINI N. 95;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;707;30707;ASST NORD MILANO                        ;VIALE GIACOMO MATTEOTTI 83;15209;SESTO SAN GIOVANNI                      ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;708;30708;ASST MELEGNANO E DELLA MARTESANA        ;VIA PANDINA N. 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;709;30709;ASST DI LODI                            ;VIA FISSIRAGA N. 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;710;30710;ASST DEI SETTE LAGHI                    ;VIALE BORRI N. 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;711;30711;ASST DELLA VALLE OLONA                  ;VIA A. DA BRESCIA N. 1;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;712;30712;ASST LARIANA                            ;VIA NAPOLEONA N. 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;713;30713;ASST DELLA VALTELLINA E DELL'ALTO LARIO ;VIA STELVIO N. 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;714;30714;ASST DELLA VALCAMONICA                  ;VIA NISSOLINA N. 2;17028;BRENO                                   ;BS;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;715;30715;ASST DI LECCO                           ;VIA DELL'EREMO N. 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;716;30716;ASST DI MONZA                           ;VIA PERGOLESI N. 33;108033;MONZA;MB;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;717;30717;ASST DI VIMERCATE                       ;VIA SANTI COSMA E DAMIANO N. 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;718;30718;ASST PAPA GIOVANNI XXIII                ;PIAZZA ORGANIZZAZIONE MONDIALE DELLA SAN;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;719;30719;ASST DI BERGAMO OVEST                   ;P.LE OSPEDALE N. 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;720;30720;ASST DI BERGAMO EST                     ;VIA PADERNO N. 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;721;30721;ASST DEGLI SPEDALI CIVILI DI BRESCIA    ;PIAZZALE SPEDALI CIVILI N. 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;722;30722;ASST DELLA FRANCIACORTA                 ;VIALE MAZZINI N. 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;723;30723;ASST DEL GARDA                          ;LOCALIT¿ MONTECROCE                     ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;724;30724;ASST DI CREMONA                         ;VIALE CONCORDIA N. 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;725;30725;ASST DI MANTOVA                         ;STRADA LAGO PAIOLO N. 10;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;726;30726;ASST DI CREMA                           ;LARGO UGO DOSSENA N. 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;727;30727;ASST DI PAVIA                           ;VIALE REPUBBLICA N. 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2016;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2016;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2016;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2016;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2016;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2017;3;LOMBARDIA            ;701;30701;ASST GRANDE OSPEDALE METROPOLITANO NIGUA;PIAZZA OSPEDALE MAGGIORE N. 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;702;30702;ASST SANTI PAOLO E CARLO                ;VIA A. DI RUDIN¿ N. 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;703;30703;ASST FATEBENEFRATELLI SACCO             ;VIA G.B. GRASSI N. 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;704;30704;ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO ;PIAZZA A. CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;705;30705;ASST OVEST MILANESE                     ;VIA PAPA GIOVANNI PAOLO II C.P. 3;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;706;30706;ASST RHODENSE                           ;VIALE FORLANINI N. 95;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;707;30707;ASST NORD MILANO                        ;VIALE GIACOMO MATTEOTTI 83;15209;SESTO SAN GIOVANNI                      ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;708;30708;ASST MELEGNANO E DELLA MARTESANA        ;VIA PANDINA N. 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;709;30709;ASST DI LODI                            ;VIA FISSIRAGA N. 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;710;30710;ASST DEI SETTE LAGHI                    ;VIALE BORRI N. 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;711;30711;ASST DELLA VALLE OLONA                  ;VIA A. DA BRESCIA N. 1;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;712;30712;ASST LARIANA                            ;VIA NAPOLEONA N. 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;713;30713;ASST DELLA VALTELLINA E DELL'ALTO LARIO ;VIA STELVIO N. 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;714;30714;ASST DELLA VALCAMONICA                  ;VIA NISSOLINA N. 2;17028;BRENO                                   ;BS;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;715;30715;ASST DI LECCO                           ;VIA DELL'EREMO N. 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;716;30716;ASST DI MONZA                           ;VIA PERGOLESI N. 33;108033;MONZA;MB;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;717;30717;ASST DI VIMERCATE                       ;VIA SANTI COSMA E DAMIANO N. 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;718;30718;ASST PAPA GIOVANNI XXIII                ;PIAZZA ORGANIZZAZIONE MONDIALE DELLA SAN;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;719;30719;ASST DI BERGAMO OVEST                   ;P.LE OSPEDALE N. 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;720;30720;ASST DI BERGAMO EST                     ;VIA PADERNO N. 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;721;30721;ASST DEGLI SPEDALI CIVILI DI BRESCIA    ;PIAZZALE SPEDALI CIVILI N. 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;722;30722;ASST DELLA FRANCIACORTA                 ;VIALE MAZZINI N. 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;723;30723;ASST DEL GARDA                          ;LOCALIT¿ MONTECROCE                     ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;724;30724;ASST DI CREMONA                         ;VIALE CONCORDIA N. 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;725;30725;ASST DI MANTOVA                         ;STRADA LAGO PAIOLO N. 10;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;726;30726;ASST DI CREMA                           ;LARGO UGO DOSSENA N. 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;727;30727;ASST DI PAVIA                           ;VIALE REPUBBLICA N. 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2017;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2017;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2017;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2017;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2017;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2018;3;LOMBARDIA            ;701;30701;ASST GRANDE OSPEDALE METROPOLITANO NIGUA;PIAZZA OSPEDALE MAGGIORE N. 3;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;702;30702;ASST SANTI PAOLO E CARLO                ;VIA A. DI RUDIN¿ N. 8;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;703;30703;ASST FATEBENEFRATELLI SACCO             ;VIA G.B. GRASSI N. 74;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;704;30704;ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO ;PIAZZA A. CARDINAL FERRARI, 1;15146;MILANO                                  ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;705;30705;ASST OVEST MILANESE                     ;VIA PAPA GIOVANNI PAOLO II C.P. 3;15118;LEGNANO                                 ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;706;30706;ASST RHODENSE                           ;VIALE FORLANINI N. 95;15105;GARBAGNATE MILANESE                     ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;707;30707;ASST NORD MILANO                        ;VIALE GIACOMO MATTEOTTI 83;15209;SESTO SAN GIOVANNI                      ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;708;30708;ASST MELEGNANO E DELLA MARTESANA        ;VIA PANDINA N. 1;15244;VIZZOLO PREDABISSI                      ;MI;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;709;30709;ASST DI LODI                            ;VIA FISSIRAGA N. 15;98031;LODI                                    ;LO;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;710;30710;ASST DEI SETTE LAGHI                    ;VIALE BORRI N. 57;12133;VARESE                                  ;VA;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;711;30711;ASST DELLA VALLE OLONA                  ;VIA A. DA BRESCIA N. 1;12026;BUSTO ARSIZIO                           ;VA;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;712;30712;ASST LARIANA                            ;VIA NAPOLEONA N. 60;13075;COMO                                    ;CO;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;713;30713;ASST DELLA VALTELLINA E DELL'ALTO LARIO ;VIA STELVIO N. 25;14061;SONDRIO                                 ;SO;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;714;30714;ASST DELLA VALCAMONICA                  ;VIA NISSOLINA N. 2;17028;BRENO                                   ;BS;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;715;30715;ASST DI LECCO                           ;VIA DELL'EREMO N. 9/11;97042;LECCO                                   ;LC;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;716;30716;ASST DI MONZA                           ;VIA PERGOLESI N. 33;108033;MONZA;MB;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;717;30717;ASST DI VIMERCATE                       ;VIA SANTI COSMA E DAMIANO N. 10;108050;VIMERCATE;MB;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;718;30718;ASST PAPA GIOVANNI XXIII                ;PIAZZA ORGANIZZAZIONE MONDIALE DELLA SAN;16024;BERGAMO                                 ;BG;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;719;30719;ASST DI BERGAMO OVEST                   ;P.LE OSPEDALE N. 1;16219;TREVIGLIO                               ;BG;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;720;30720;ASST DI BERGAMO EST                     ;VIA PADERNO N. 21;16198;SERIATE                                 ;BG;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;721;30721;ASST DEGLI SPEDALI CIVILI DI BRESCIA    ;PIAZZALE SPEDALI CIVILI N. 1;17029;BRESCIA                                 ;BS;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;722;30722;ASST DELLA FRANCIACORTA                 ;VIALE MAZZINI N. 4;17052;CHIARI                                  ;BS;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;723;30723;ASST DEL GARDA                          ;LOCALIT¿ MONTECROCE                     ;17067;DESENZANO DEL GARDA                     ;BS;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;724;30724;ASST DI CREMONA                         ;VIALE CONCORDIA N. 1;19036;CREMONA                                 ;CR;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;725;30725;ASST DI MANTOVA                         ;STRADA LAGO PAIOLO N. 10;20030;MANTOVA                                 ;MN;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;726;30726;ASST DI CREMA                           ;LARGO UGO DOSSENA N. 2;19035;CREMA                                   ;CR;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;727;30727;ASST DI PAVIA                           ;VIALE REPUBBLICA N. 34;18110;PAVIA                                   ;PV;0;Azienda Ospedaliera
+2018;3;LOMBARDIA            ;920;30920;I.N.R.C.A.- PRESIDIO DI CASATENOVO      ;VIA MONTEREGIO, 13;97016;CASATENOVO                              ;LC;3.1;IRCCS pubblico
+2018;3;LOMBARDIA            ;922;30922;"FOND.IRCCS ""ISTIT.NAZ.LE TUMORI""MILANO  ";VIA VENEZIAN, 1;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2018;3;LOMBARDIA            ;923;30923;FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M;VIA CELORIA 11;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2018;3;LOMBARDIA            ;924;30924;POLICLINICO S. MATTEO - PAVIA           ;VIALE GOLGI, 19;18110;PAVIA                                   ;PV;3.3;IRCCS fondazione
+2018;3;LOMBARDIA            ;925;30925;FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI;VIA FRANCESCO SFORZA, 28;15146;MILANO                                  ;MI;3.3;IRCCS fondazione
+2011;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2011;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2011;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2012;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2012;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2012;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2013;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2013;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2013;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2014;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2014;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2014;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2015;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2015;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2015;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2016;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA DI PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2016;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;Piazzale Stefani, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2016;5;VENETO               ;952;50952;I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO;via gattamelata, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2017;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2017;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;PIAZZALE STEFANI, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2017;5;VENETO               ;952;50952;IOV;VIA GATTAMELATA, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2018;5;VENETO               ;901;50901;AZIENDA OSPEDALIERA PADOVA;VIA GIUSTINIANI, 1;28060;PADOVA                                  ;PD;0;Azienda Ospedaliera
+2018;5;VENETO               ;912;50912;AZ.OSP.UNIVERSITARIA INTEGRATA VERONA;PIAZZALE STEFANI, 1;23091;VERONA                                  ;VR;2.2;Azienda Ospedaliera integrata con l'Università
+2018;5;VENETO               ;952;50952;IOV;VIA GATTAMELATA, 64;28060;PADOVA                                  ;PD;3.1;IRCCS pubblico
+2011;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2011;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2011;6;FRIULI VENEZIA GIULIA;912;60912;AZIENDA OSPEDALIERA 'S. MARIA DEGLI ANGE;VIA MONTEREALE 24;93033;PORDENONE                               ;PN;0;Azienda Ospedaliera
+2011;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2011;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2012;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2012;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2012;6;FRIULI VENEZIA GIULIA;912;60912;AZIENDA OSPEDALIERA 'S. MARIA DEGLI ANGE;VIA MONTEREALE 24;93033;PORDENONE                               ;PN;0;Azienda Ospedaliera
+2012;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2012;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2013;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2013;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2013;6;FRIULI VENEZIA GIULIA;912;60912;AZIENDA OSPEDALIERA 'S. MARIA DEGLI ANGE;VIA MONTEREALE 24;93033;PORDENONE                               ;PN;0;Azienda Ospedaliera
+2013;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2013;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2014;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2014;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2014;6;FRIULI VENEZIA GIULIA;912;60912;AZIENDA OSPEDALIERA 'S. MARIA DEGLI ANGE;VIA MONTEREALE 24;93033;PORDENONE                               ;PN;0;Azienda Ospedaliera
+2014;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2014;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2015;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2015;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2015;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2015;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2016;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2016;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2016;6;FRIULI VENEZIA GIULIA;913;60913;AZ.OSP.UNIV. OSPEDALI RIUNITI DI TRIESTE;VIA FARNETO N. 3;32006;TRIESTE                                 ;TS;2.2;Azienda Ospedaliera integrata con l'Università
+2016;6;FRIULI VENEZIA GIULIA;916;60916;AZIENDA OSPEDALIERO-UNIVERSITARIA;P.LE S.MARIA DELLA MISERICORDIA 15;30129;UDINE                                   ;UD;2.2;Azienda Ospedaliera integrata con l'Università
+2017;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2017;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2018;6;FRIULI VENEZIA GIULIA;901;60901;I.R.C.C.S.  BURLO GAROFOLO;VIA DELL`ISTRIA 65/1;32006;TRIESTE                                 ;TS;3.1;IRCCS pubblico
+2018;6;FRIULI VENEZIA GIULIA;902;60902;CENTRO  RIFERIMENTO ONCOLOGICO;VIA FRANCO GALLINI N. 2;93004;AVIANO                                  ;PN;3.1;IRCCS pubblico
+2011;7;LIGURIA              ;930;70930;AZ. OSPEDAL. UNIVERSITARIA SAN MARTINO;L.GO R.BENZI 10;10025;GENOVA                                  ;GE;0;Azienda Ospedaliera
+2011;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2011;7;LIGURIA              ;950;70950;ISTITUTO NAZ. PER LA RICERCA SUL CANCRO;P.LE R. BENZI, 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2012;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2012;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2013;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2013;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2014;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2014;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2015;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2015;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2016;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2016;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI                          ;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2017;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2017;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2018;7;LIGURIA              ;901;70901;IRCCS AOU S.MARTINO - IST;Largo Rosanna Benzi n. 10;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2018;7;LIGURIA              ;940;70940;IST.G.GASLINI;VIA G. GASLINI;10025;GENOVA                                  ;GE;3.1;IRCCS pubblico
+2011;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2011;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2011;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2011;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2011;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;CORSO GIOVECCA, 203;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2011;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2012;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2012;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2012;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2012;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2012;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2012;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO, 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2012;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2013;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2013;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2013;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2013;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2013;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2013;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO, 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2013;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2014;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2014;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2014;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2014;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2014;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2014;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO, 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2014;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2015;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2015;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2015;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2015;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2015;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2015;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO, 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2015;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2016;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2016;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2016;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA    ;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2016;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2016;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA GIUSEPPE MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2016;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO, 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2016;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2017;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2017;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2017;8;EMILIA ROMAGNA       ;903;80903;AZIENDA OSPEDALIERA DI REGGIO EMILIA;VIALE RISORGIMENTO N 80;35033;REGGIO NELL'EMILIA                      ;RE;0;Azienda Ospedaliera
+2017;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2017;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA GIUSEPPE MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2017;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2017;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2018;8;EMILIA ROMAGNA       ;105;80153;ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B;VIA ALTURA 3;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2018;8;EMILIA ROMAGNA       ;902;80902;AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR;VIA GRAMSCI, 14;34027;PARMA                                   ;PR;2.2;Azienda Ospedaliera integrata con l'Università
+2018;8;EMILIA ROMAGNA       ;904;80904;AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD;VIA DEL POZZO, 71;36023;MODENA                                  ;MO;2.2;Azienda Ospedaliera integrata con l'Università
+2018;8;EMILIA ROMAGNA       ;908;80908;AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL;VIA GIUSEPPE MASSARENTI 9;37006;BOLOGNA                                 ;BO;2.2;Azienda Ospedaliera integrata con l'Università
+2018;8;EMILIA ROMAGNA       ;909;80909;AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER;VIA ALDO MORO 8;38008;FERRARA                                 ;FE;2.2;Azienda Ospedaliera integrata con l'Università
+2018;8;EMILIA ROMAGNA       ;960;80960;ISTITUTO ORTOPEDICO RIZZOLI             ;VIA PUPILLI 1;37006;BOLOGNA                                 ;BO;3.1;IRCCS pubblico
+2011;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2011;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2011;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2011;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2012;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2012;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2012;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2012;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2013;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2013;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2013;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2013;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2014;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2014;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2014;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2014;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2015;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2015;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2015;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2015;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2016;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2016;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2016;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2016;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2017;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2017;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2017;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2017;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2018;9;TOSCANA              ;901;90901;AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA;VIA ROMA 67;50026;PISA                                    ;PI;2.2;Azienda Ospedaliera integrata con l'Università
+2018;9;TOSCANA              ;902;90902;AZIENDA OSPEDALIERA UNIVERSITARIA SENESE;V.LE BRACCI - LOC.LE SCOTTE             ;52032;SIENA                                   ;SI;2.2;Azienda Ospedaliera integrata con l'Università
+2018;9;TOSCANA              ;903;90903;AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI ;LARGO BRAMBILLA, 3;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2018;9;TOSCANA              ;904;90904;AZIENDA OSPEDALIERA MEYER               ;VIALE PIERACCINI 24;48017;FIRENZE                                 ;FI;2.2;Azienda Ospedaliera integrata con l'Università
+2011;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;V. MARTIRI 28 MARZO, 35;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2011;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2012;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;V. MARTIRI 28 MARZO, 35;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2012;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2013;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;V. MARTIRI 28 MARZO, 35;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2013;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2014;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;V. MARTIRI 28 MARZO, 35;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2014;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2015;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;PIAZZALE GIORGIO MENGHINI, 8/9;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2015;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2016;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;PIAZZALE GIORGIO MENGHINI, 8/9;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2016;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO              ;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2017;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;PIAZZALE GIORGIO MENGHINI, 8/9;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2017;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2018;10;UMBRIA               ;901;100901;AZIENDA OSPEDALIERA DI PERUGIA;PIAZZALE GIORGIO MENGHINI, 8/9;54039;PERUGIA                                 ;PG;0;Azienda Ospedaliera
+2018;10;UMBRIA               ;902;100902;AZIENDA OSPEDALIERA 'S. MARIA' - TERNI;VIA TRISTANO DI JOANNUCCIO;55032;TERNI                                   ;TR;0;Azienda Ospedaliera
+2011;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;VIALE TRIESTE, 391;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2011;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2011;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2012;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;VIALE TRIESTE, 391;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2012;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2012;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2013;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2013;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2013;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2014;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2014;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2014;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2015;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2015;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2015;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2016;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2016;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2016;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2017;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2017;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;0;Azienda Ospedaliera
+2017;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2018;11;MARCHE               ;901;110901;A.O. OSPEDALI RIUNITI MARCHE NORD;Piazzale Cinelli 4;41044;PESARO                                  ;PU;0;Azienda Ospedaliera
+2018;11;MARCHE               ;905;110905;A.O.U.OSPEDALI RIUNITI - ANCONA;VIA CONCA 71;42002;ANCONA                                  ;AN;2.2;Azienda Ospedaliera integrata con l'Università
+2018;11;MARCHE               ;921;110921;OSPEDALI INRCA MARCHE;VIA DELLA MONTAGNOLA, 81;42002;ANCONA                                  ;AN;3.1;IRCCS pubblico
+2011;12;LAZIO                ;105;120912;INRCA;VIA CASSIA  1167;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2011;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;PIAZZA CARLO FORLANINI, 1;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2011;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2011;12;LAZIO                ;903;120903;AZ. COMPL. OSP. S.FILIPPO NERI;VIA MARTINOTTI N. 20;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2011;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2011;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2011;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2011;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2012;12;LAZIO                ;105;120912;INRCA;VIA CASSIA  1167;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2012;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;PIAZZA CARLO FORLANINI, 1;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2012;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2012;12;LAZIO                ;903;120903;AZ. COMPL. OSP. S.FILIPPO NERI;VIA MARTINOTTI N. 20;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2012;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2012;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2012;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2012;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2013;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;PIAZZA CARLO FORLANINI, 1;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2013;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2013;12;LAZIO                ;903;120903;AZ. COMPL. OSP. S.FILIPPO NERI;VIA MARTINOTTI N. 20;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2013;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2013;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2013;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2013;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2014;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;PIAZZA CARLO FORLANINI, 1;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2014;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2014;12;LAZIO                ;903;120903;AZ. COMPL. OSP. S.FILIPPO NERI;VIA MARTINOTTI N. 20;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2014;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2014;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2014;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2014;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2015;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;CIRCONVALLAZIONE GIANICOLENSE, 87;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2015;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2015;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2015;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2015;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2015;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2016;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;CIRCONVALLAZIONE GIANICOLENSE, 87;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2016;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2016;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2016;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2016;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2016;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2017;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;CIRCONVALLAZIONE GIANICOLENSE, 87;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2017;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2017;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2017;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2017;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2017;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2018;12;LAZIO                ;901;120901;AZ.OSP.SAN CAMILLO-FORLANINI;CIRCONVALLAZIONE GIANICOLENSE, 87;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2018;12;LAZIO                ;902;120902;AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA;VIA DELL`AMBA ARADAM 9;58091;ROMA                                    ;RM;0;Azienda Ospedaliera
+2018;12;LAZIO                ;906;120906;POLICLINICO U. I;VIALE DEL POLICLINICO 155;58091;ROMA                                    ;RM;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;12;LAZIO                ;908;120908;ISTITUTI FISIOTERAPICI OSPITALIERI;VIA ELIO CHIANESI 53;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2018;12;LAZIO                ;918;120918;INMI 'L.SPALLANZANI' - IRCCS;VIA PORTUENSE,292;58091;ROMA                                    ;RM;3.1;IRCCS pubblico
+2018;12;LAZIO                ;919;120919;AZIENDA OSPEDALIERA SANT`ANDREA;VIA DI GROTTAROSSA 1035 - 1039;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2018;12;LAZIO                ;920;120920;AZ. OSP. UNIV. POLICLINICO TOR VERGATA;VIALE OXFORD , 81;58091;ROMA                                    ;RM;2.2;Azienda Ospedaliera integrata con l'Università
+2011;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2011;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2011;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;15;CAMPANIA             ;909;150909;UNIV.STUDI NAPOLI-FEDERICO II-FAC.MEDIC.;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2012;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2012;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2012;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;15;CAMPANIA             ;909;150909;UNIV.STUDI NAPOLI-FEDERICO II-FAC.MEDIC.;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2013;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2013;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2013;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;15;CAMPANIA             ;909;150909;UNIV.STUDI NAPOLI-FEDERICO II-FAC.MEDIC.;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2014;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2014;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2014;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;15;CAMPANIA             ;909;150909;A.O.U. 'FEDERICO II' DI NAPOLI;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2015;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2015;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2015;15;CAMPANIA             ;908;150908;AZIENDA UNIVERSITARIA POLICLINICO;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;15;CAMPANIA             ;909;150909;A.O.U. 'FEDERICO II' DI NAPOLI;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2016;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2016;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S.G. MOSCATI;C.daAMORETTA                            ;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2016;15;CAMPANIA             ;908;150908;AZIENDA OSPEDALIERA UNIVERSITARIA UNICAM;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;15;CAMPANIA             ;909;150909;A.O.U. 'FEDERICO II' DI NAPOLI;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2017;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO                              ;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2017;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S. G. MOSCATI;C.da Amoretta;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `G.RUMMO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO             ;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2017;15;CAMPANIA             ;908;150908;AZIENDA OSPEDALIERA UNIVERSITARIA UNICAM;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;15;CAMPANIA             ;909;150909;A.O.U. 'FEDERICO II' DI NAPOLI;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA                     ;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2018;15;CAMPANIA             ;901;150901;AZIENDA OSPEDALIERA 'A. CARDARELLI';VIA A.CARDARELLI 9;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;902;150902;A.O.SANTOBONO-PAUSILIPON;VIA DELLA CROCE ROSSA 8;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;903;150903;A.zienda Ospedaliera dei Colli;Via L. Bianchi;63049;NAPOLI                                  ;NA;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;904;150904;A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR;S.LEONARDO;65116;SALERNO                                 ;SA;2.2;Azienda Ospedaliera integrata con l'Università
+2018;15;CAMPANIA             ;905;150905;AZIENDA OSPEDALIERA S. G. MOSCATI;C.da Amoretta;64008;AVELLINO                                ;AV;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;906;150906;AZIENDA OSPEDALE `SAN PIO`;VIA DELL`ANGELO,1;62008;BENEVENTO                               ;BN;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;907;150907;A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA;VIA PALASCIANO;61022;CASERTA                                 ;CE;0;Azienda Ospedaliera
+2018;15;CAMPANIA             ;908;150908;AZIENDA OSPEDALIERA UNIVERSITARIA UNICAM;VIA COSTANTINOPOLI, 104;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;15;CAMPANIA             ;909;150909;A.O.U. 'FEDERICO II' DI NAPOLI;VIA SERGIO PANSINI 5;63049;NAPOLI                                  ;NA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;15;CAMPANIA             ;910;150910;ISTITUTO NAZIONALE TUMORI DI NAPOLI;VIA MARIANO SEMMOLA;63049;NAPOLI                                  ;NA;3.1;IRCCS pubblico
+2011;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2011;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2011;16;PUGLIA               ;907;160907;AO Univ Consorziale Policlinico di Bari;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.2;Azienda Ospedaliera integrata con l'Università
+2011;16;PUGLIA               ;910;160910;Azienda Ospedaliera'Ospedali Riuniti';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2012;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2012;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2012;16;PUGLIA               ;907;160907;AO Univ Consorziale Policlinico di Bari;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.2;Azienda Ospedaliera integrata con l'Università
+2012;16;PUGLIA               ;910;160910;Azienda Ospedaliera'Ospedali Riuniti';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2013;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2013;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2013;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.2;Azienda Ospedaliera integrata con l'Università
+2013;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2014;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2014;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2014;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2015;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2015;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2015;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2016;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2016;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2016;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2017;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2017;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2017;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2018;16;PUGLIA               ;901;160901;ISTITUTO TUMORI GIOVANNI PAOLO II;VIALE ORAZIO FLACCO N.65;72006;BARI                                    ;BA;3.1;IRCCS pubblico
+2018;16;PUGLIA               ;902;160902;IRCCS 'SAVERIO DE BELLIS';Via Turi, 27;72017;CASTELLANA GROTTE                       ;BA;3.1;IRCCS pubblico
+2018;16;PUGLIA               ;907;160907;AO UNIV. CONS. POLICLINICO BARI;P.zza G. Cesare 11;72006;BARI                                    ;BA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;16;PUGLIA               ;910;160910;AO UNIV. 'OO RR FOGGIA';Viale Luigi Pinto;71024;FOGGIA                                  ;FG;2.2;Azienda Ospedaliera integrata con l'Università
+2011;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';C/DA MACCHIA ROMANA POTENZA             ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2011;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2012;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';C/DA MACCHIA ROMANA POTENZA             ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2012;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2013;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc  ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2013;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2014;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc  ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2014;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2015;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc  ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2015;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2016;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc  ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2016;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2017;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc  ;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2017;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2018;17;BASILICATA           ;901;170901;AZIENDA OSPEDALIERA REGIONALE 'S. CARLO';Via Potito Petrone snc;76063;POTENZA                                 ;PZ;0;Azienda Ospedaliera
+2018;17;BASILICATA           ;910;170910;C.R.O.B. - I.R.C.C.S.;Via Padre Pio 1;76066;RIONERO IN VULTURE                      ;PZ;3.1;IRCCS pubblico
+2011;18;CALABRIA             ;201;180916;INRCA;C.DA MUOIO PICCOLO                      ;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2011;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2011;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2011;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2011;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2012;18;CALABRIA             ;201;180916;INRCA;C.DA MUOIO PICCOLO                      ;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2012;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2012;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2012;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2012;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2013;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2013;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2013;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2013;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2013;18;CALABRIA             ;916;180916;INRCA;C.DA MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2014;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2014;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2014;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2014;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2014;18;CALABRIA             ;916;180916;INRCA;C.DA  MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2015;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2015;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2015;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2015;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2015;18;CALABRIA             ;916;180916;INRCA;C.DA  MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2016;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA SAN MARTINO;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2016;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2016;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2016;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2016;18;CALABRIA             ;916;180916;INRCA;C.DA  MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2017;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA          ;VIA SAN MARTINO                         ;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2017;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2017;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2017;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2017;18;CALABRIA             ;916;180916;INRCA;C.DA  MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2018;18;CALABRIA             ;912;180912;AZIENDA OSPEDALIERA DI COSENZA;VIA Felice Migliori;78045;COSENZA                                 ;CS;0;Azienda Ospedaliera
+2018;18;CALABRIA             ;913;180913;Azienda Ospedaliera Pugliese De Lellis;Viale Pio X;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2018;18;CALABRIA             ;914;180914;A.O. MATER DOMINI CATANZARO;VIALE EUROPA LOC. GERMANETO;79023;CATANZARO                               ;CZ;0;Azienda Ospedaliera
+2018;18;CALABRIA             ;915;180915;Azienda Osp.  Bianchi-Melacrino-Morelli;VIA PROVINCIALE SPIRITO SANTO, 24;80063;REGGIO DI CALABRIA                      ;RC;0;Azienda Ospedaliera
+2018;18;CALABRIA             ;916;180916;INRCA;C.DA  MUOIO PICCOLO;78045;COSENZA                                 ;CS;3.1;IRCCS pubblico
+2011;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2011;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2011;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2011;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2011;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2011;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2012;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2012;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2012;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2012;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2012;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2012;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2013;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2013;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2013;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2013;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2013;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2013;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2013;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2014;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2014;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2014;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2014;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2014;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2014;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2014;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2015;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2015;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2015;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2015;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2015;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2015;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2015;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2016;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2016;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2016;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;19;SICILIA              ;924;190924;aorpapardopiemonte;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2016;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2016;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2016;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';s.s. 113 Contrada Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2016;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2017;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2017;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2017;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;19;SICILIA              ;924;190924;Azienda Ospedaliera Papardo;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2017;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2017;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2017;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';SS.113 Via Palermo C / Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2017;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2018;19;SICILIA              ;921;190921;A.O. per l'Emergenza Cannizzaro;via Messina 829;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2018;19;SICILIA              ;922;190922;ARNAS GARIBALDI;PIAZZA SANTA MARIA DI GESU', 5/7;87015;CATANIA                                 ;CT;0;Azienda Ospedaliera
+2018;19;SICILIA              ;923;190923;A.O.U. POLICLINICO - VITTORIO EMANUELE;VIA SANTA SOFIA 78;87015;CATANIA                                 ;CT;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;19;SICILIA              ;924;190924;Azienda Ospedaliera Papardo;contrada papardo;83048;MESSINA                                 ;ME;0;Azienda Ospedaliera
+2018;19;SICILIA              ;925;190925;Azienda Osp. Univ. G. Martino;viale gazzi;83048;MESSINA                                 ;ME;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;19;SICILIA              ;926;190926;A.O.R Villa Sofia Cervello;Viale Strasburgo, 233;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2018;19;SICILIA              ;927;190927;Azienda Ospedaliera 'Civico-Di Cristina-;Piazza Nicola Leotta, 4;82053;PALERMO                                 ;PA;0;Azienda Ospedaliera
+2018;19;SICILIA              ;928;190928;AZ.OSP.UNIV.P.GIACCONE;Via del Vespro n. 129;82053;PALERMO                                 ;PA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;19;SICILIA              ;960;190960;IRCCS Centro Neurolesi 'Bonino Pulejo';SS.113 Via Palermo C / Casazza;83048;MESSINA                                 ;ME;3.1;IRCCS pubblico
+2018;19;SICILIA              ;970;190970;Dipartimento Rizzoli-Sicilia;SS13 al km 246;82006;BAGHERIA                                ;PA;3.1;IRCCS pubblico
+2011;20;SARDEGNA             ;108;200903;I.N.R.C.A.;VIA DELLE CICALE 11;92009;CAGLIARI                                ;CA;3.1;IRCCS pubblico
+2011;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2011;20;SARDEGNA             ;905;200905;AZIENDA OSPED. UNIVERSITARIA SASSARI;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2011;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;20;SARDEGNA             ;108;200903;I.N.R.C.A.;VIA DELLE CICALE 11;92009;CAGLIARI                                ;CA;3.1;IRCCS pubblico
+2012;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2012;20;SARDEGNA             ;905;200905;AZIENDA OSPED. UNIVERSITARIA SASSARI;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2012;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2013;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2013;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2014;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2014;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2015;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2015;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2016;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2016;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2017;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2017;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;20;SARDEGNA             ;904;200904;AZIENDA OSPEDALIERA G.BROTZU;PIAZZALE A. RICCHI N. 1;92009;CAGLIARI                                ;CA;0;Azienda Ospedaliera
+2018;20;SARDEGNA             ;905;200905;AZIENDA OSPEDALIERO UNIVERSITARIA SS;VIA COPPINO N° 26;90064;SASSARI                                 ;SS;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
+2018;20;SARDEGNA             ;906;200906;A.O.U. Cagliari;via Ospeale, 46;92009;CAGLIARI                                ;CA;2.1;Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale

@@ -31,7 +31,8 @@
 
 .header-img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background: url('http://www.sach.org.pk/uploads/events/98ae48f486150219a42d51487a92730f.jpg');
     background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(158, 21, 59, 0.5);
   }
