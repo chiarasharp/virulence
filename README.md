@@ -11,11 +11,6 @@
     1. [Quality Analysis](#quality-analysis)
     2. [Legal Analysis](#legal-analysis)
     3. [Technical Analysis](#technical-analysis)
-        1. [1:COVID](#covid)
-        2. [2:POP](#pop)
-        3. [3:PM10](#pm10)
-        4. [4:SUP](#sup)
-        5. [5:AGE](#age)
     4. [Sustainability](#sustainability)
 5. [Website and Data Visualization](#website-and-data-visualization)
 6. [Conclusion](#conclusion)
@@ -48,38 +43,26 @@ All these factors have been considered only within 2019, that is shortly before 
 The datasets used for our project. In the next sections we are going to analyze them from various points of view.
 
 
-|ID     |FILE                                       |DESCRIPTION                                                                                                                                                                                                |DATASET                                                              |CATALOGUE                                                              |URI                                                                                                                                                                       |LICENSE                                        |LAST UPDATE      |DOWNLOADED      |
-|-------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|-----------------|----------------|
-|1:COVID|dpc-covid-19-ita-regioni.csv               |COVID-19 data for every italian region. We took the cases and deaths of the first pandemic wave (february to may 2020).                                                                                    |COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0|RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca|https://github.com/pcm-dpc/COVID-19/blob/master/dati-regioni/dpc-covid19-ita-regioni.csv                                                                                  |https://creativecommons.org/licenses/by/4.0/   |December 10, 2021|January 12, 2022|
-|2:POP  |DCIS_POPORESBIL1_12012022143315331.csv     |Population of every italian region in 2019. We only took the ‘popolazione inizio periodo’ row from the database.                                                                                           |Popolazione residente - bilancio                                     |I.Stat                                                                 |http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1                                 |https://creativecommons.org/licenses/by/3.0/it/|                 |February 8, 2022|
-|3:PM10 |DataExtract.csv                            |PM10 mean level of 2019 for every italian station that measure it. We calculated the mean of all the values of the stations in the same italian region and created a single value for every italian region.|Air quality annual statistics calculated by the EEA                  |Air Quality e-Reporting (AQ e-Reporting)                               |https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html?Country=Italy&AirPollutant=PM10&DataAggregationProcess=Annual mean / 1 calendar year&ReportingYear=2019|https://creativecommons.org/licenses/by/4.0/   |February 18, 2022|March 10, 2022  |
-|4:SUP  |DCCV_CARGEOMOR_ST_COM_27032022165808849.csv|The total area of land for every italian region calculated at the beginning of 2020. We used it, together with the data about the population, to calculated the population density.                        |Superfici territoriali                                               |I.Stat                                                                 |http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#                                                                                                        |https://creativecommons.org/licenses/by/3.0/it/|                 |March 27, 2022  |
-|5:AGE  |DCIS_INDDEMOG1_28032022142732546.csv       |The age mean of the population of every italian region in 2019.                                                                                                                                            |Indicatori demografici                                               |I.Stat                                                                 |http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#                                                                                                               |https://creativecommons.org/licenses/by/3.0/it/|                 |March 28, 2022  |
-
+|ID|FILE|DESCRIPTION|DATASET|CATALOGUE|URI|LICENSE|LAST UPDATE|DOWNLOADED|
+|--|--|--|--|--|--|--|--|--|
+|1:COVID|dpc-covid-19-ita-regioni.csv|COVID-19 data for every italian region. We took the cases and deaths of the first pandemic wave (february to may 2020).|COVID-19 Monitoraggio situazione Italia (RNDT - Serie) - Versione 2.0|RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca|https://github.com/pcm-dpc/COVID-19/blob/master/dati-regioni/dpc-covid19-ita-regioni.csv|https://creativecommons.org/licenses/by/4.0/|December 10, 2021|January 12, 2022|
+|2:POP|DCIS_POPORESBIL1_12012022143315331.csv|Population of every italian region in 2019. We only took the ‘popolazione inizio periodo’ row from the database.|Popolazione residente - bilancio|I.Stat|http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1|https://creativecommons.org/licenses/by/3.0/it/||February 8, 2022|
+|3:PM10 |DataExtract.csv|PM10 mean level of 2019 for every italian station that measure it. We calculated the mean of all the values of the stations in the same italian region and created a single value for every italian region.|Air quality annual statistics calculated by the EEA|Air Quality e-Reporting (AQ e-Reporting)|https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html?Country=Italy&AirPollutant=PM10&DataAggregationProcess=Annual%20mean%20/%201%20calendar%20year&ReportingYear=2019|https://creativecommons.org/licenses/by/4.0/|February 18, 2022|March 10, 2022|
+|4:SUP|DCCV_CARGEOMOR_ST_COM_27032022165808849.csv|The total area of land for every italian region calculated at the beginning of 2020. We used it, together with the data about the population, to calculated the population density.|Superfici territoriali|I.Stat|http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#|https://creativecommons.org/licenses/by/3.0/it/||March 27, 2022|
+|5:AGE|DCIS_INDDEMOG1_28032022142732546.csv|The age mean of the population of every italian region in 2019.|Indicatori demografici|I.Stat|http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#|https://creativecommons.org/licenses/by/3.0/it/||March 28, 2022|
+|6:HOSP|C_17_dataset_68_0_upFileUTF8CODREG.csv|The hospital count of every italian region in 2019.|Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici (anche costituiti in fondazione)|Open Data Ministero della Salute|http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp|https://www.dati.gov.it/content/italian-open-data-license-v20|2019-12-31|2014-02-12|
 
 
 
 ### <a name="#mashup-dataset">3.2 Mashup Dataset</a>
 
-**ID**:
+* *0:VIR*:
+    * **URIs**: we decided to publish the data in CSV, JSON and RDF format;
+    * **Metadata**:
+    * **Last update**:
+    * **Description**: for each italian region the dataset contains: region name, region istat code, covid-19 cases at the beginning of the pandemic, covid-19 deaths at the beginning of the pandemic, covid-19 cases at the beginning of the pandemic for every 100.000 people, covid-19 deaths at the beginning of the pandemic for every 100.000 people, pm10 level mean of 2019, the population density in 2019, the average age of the population in 2019, ...;
+    * **Methodology**: we manipulated and merged the data coming from the previously described datasets and followed the [italian guidelines for the enhancement of public information assets](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/index.html), pairing our merged data with the appropriate metadata about both the original and mashup datasets.
 
-0:VIR
-
-**URIs**:
-
-We decided to publish the data in CSV, JSON and RDF format.
-
-**Metadata**:
-
-**Last update**:
-
-**Description**:
-
-For each italian region the dataset contains: region name, region istat code, covid-19 cases at the beginning of the pandemic, covid-19 deaths at the beginning of the pandemic, covid-19 cases at the beginning of the pandemic for every 100.000 people, covid-19 deaths at the beginning of the pandemic for every 100.000 people, pm10 level mean of 2019, the population density in 2019, the average age of the population in 2019, ...
-
-**Methodology**:
-
-We manipulated and merged the data coming from the previously described datasets and followed the [italian guidelines for the enhancement of public information assets](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/index.html), pairing our merged data with the appropriate metadata about both the original and mashup datasets.
 
 ## <a name="#data-analysis"> 4. Data Analysis</a>
 ### <a name="#quality-analysis"> 4.1 Quality Analysis</a>
@@ -97,110 +80,78 @@ The initial datasets have been subjected to a quality analysis, following the pr
 </table>
 
 Below we justify our assessments for every dataset:
-- 1:COVID - The dataset shows plenty of information divided by date, region code, latitude/longitude, and many other details regarding the patients' conditions, so it's way more than we actually needed to extrapolate. The whole dataset is updated to 2022, but we considered only the period between February and May 2020, because we wanted to focus on the first months of COVID-19's spread.
-- 2:POP - Provided by ISTAT, this dataset, like the previous one, is constantly updated, and it doesn't show any issue related to the aspects considered in the table above.
-- 3:PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. It's updated to 2022.
-- 4:SUP - Updated to the beginning of 2020, this dataset provides the total surface of every italian region, represented in hectares (ha) and square kilometers (kmq).
-- 5:AGE - Updated to 2021, the dataset features information about life expectation in Italy, depending on the age group, and the percentage of the same groups in the peninsula.
+- *1:COVID* - The dataset shows plenty of information divided by date, region code, latitude/longitude, and many other details regarding the patients' conditions, so it's way more than we actually needed to extrapolate. The whole dataset is updated to 2022, but we considered only the period between February and May 2020, because we wanted to focus on the first months of COVID-19's spread.
+- *2:POP* - Provided by ISTAT, this dataset, like the previous one, is constantly updated, and it doesn't show any issue related to the aspects considered in the table above.
+- *3:PM10* - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. It's updated to 2022.
+- *4:SUP* - Updated to the beginning of 2020, this dataset provides the total surface of every italian region, represented in hectares (ha) and square kilometers (kmq).
+- *5:AGE* - Updated to 2021, the dataset features information about life expectation in Italy, depending on the age group, and the percentage of the same groups in the peninsula.
 
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
 <!-- privacy, license -->
-- 1:COVID - Provided by the RNDT (Repertorio Nazionali dei Dati Territoriali), this dataset is subjected to a "<a href="https://creativecommons.org/licenses/by/4.0/deed.it" rel="nofollow">Creative Commons Attribution 4.0 International (CC BY 4.0).</a>" license: those who find it can host, modify and share its information, even for commercial use.
-- 2:POP - This dataset, provided by ISTAT, is subjected to a "<a href="http://creativecommons.org/licenses/by/3.0/it/" rel="nofollow">Creative Commons – Attribution – version 3.0.</a>" license. Hence, data is available for reproduction, distribution and broadcasting, without needing permission to create hypertext links to this site itself. The only condition is the source's citation.
-- 3:PM10 - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
-- 4:SUP - Same as the 2:POP dataset.
-- 5:AGE - Same as the 2:POP dataset.
+- *1:COVID* - Provided by the RNDT (Repertorio Nazionali dei Dati Territoriali), this dataset is subjected to a "<a href="https://creativecommons.org/licenses/by/4.0/deed.it" rel="nofollow">Creative Commons Attribution 4.0 International (CC BY 4.0).</a>" license: those who find it can host, modify and share its information, even for commercial use.
+- *2:POP* - This dataset, provided by ISTAT, is subjected to a "<a href="http://creativecommons.org/licenses/by/3.0/it/" rel="nofollow">Creative Commons – Attribution – version 3.0.</a>" license. Hence, data is available for reproduction, distribution and broadcasting, without needing permission to create hypertext links to this site itself. The only condition is the source's citation.
+- *3:PM10* - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
+- *4:SUP* - Same as the 2:POP dataset.
+- *5:AGE* - Same as the 2:POP dataset.
 
 ### <a name="#technical-analysis"> 4.3 Technical Analysis</a>
 
 <!-- Formats, metadata, uris, provenance -->
 
-#### <a name="#covid"> 1:COVID</a>
+* *1:COVID*:
+    * **Formats**: [CSV](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv);
 
-**Formats**:
+    * **Provenance**: the [COVID-19 Github repository](https://github.com/pcm-dpc/COVID-19) made available by the italian Protezione Civile;
 
-[CSV](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv)
+    * **Metadata**: we first found the metadata available in the same repository (this [XML file](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/metadata/covid-19-monitoraggio.xml)), which was not in the DCAT-AP standard but in the RNDT standard, which is a standard used for territorial data in Italy.
 
-**Provenance**:
 
-The [COVID-19 Github repository](https://github.com/pcm-dpc/COVID-19) made available by the italian Protezione Civile.
+        Then, in this [md file](https://github.com/pcm-dpc/COVID-19/blob/master/dati-andamento-covid19-italia.md) of the description of the dataset we found [this link](https://geodati.gov.it/geoportale/visualizzazione-metadati/scheda-metadati/?uuid=PCM%3ACOVID-19%3A05032020%3A093000) to the metadata in the [geodati.gov.it](http://geodati.gov.it) site. Ignoring the fact that it is not possible to access to the actual RDF file of this metadata, we realized that it was more updated than the github one. So the github XML file was old and not updated metadata.
 
-**Metadata**:
+        Doing more research we found [this manual](https://geodati.gov.it/geoportale/images/struttura/documenti/GeoDCAT-AP_IT-v1.0.pdf), which explains that the territorial data which is also open can be “translated” to the DCAT-AP IT standard through the GeoDCAT-AP IT specific. And that the version of the metadata in the DCAT-AP IT standard could be found at [dati.gov.it](http://dati.gov.it).
 
-We first found the metadata available in the same repository (this [XML file](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/metadata/covid-19-monitoraggio.xml)), which was not in the DCAT-AP standard but in the RNDT standard, which is a standard used for territorial data in Italy.
+        So we searched for the dataset in [dati.gov.it](http://dati.gov.it) catalogue and we found [this](https://www.dati.gov.it/view-dataset/dataset?id=327cbe0a-4737-4e2c-9567-c7d90f69570b), once again it was not possible to access the actual metadata file in RDF. Browsing the site more carefully we found [this page](https://dati.gov.it/elenco-harvest-sources) and  finally found the [download URL](https://geodati.gov.it/geodcat-ap_it/index.php?outputTransformation=dcatap_it&inputFormat=CSW&outputFormat=XML&src=request%3DGetRecords%26service%3DCSW%26version%3D2.0.2%26resultType%3Dresults%26outputSchema%3Dhttp%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd%26outputFormat%3Dapplication%2Fxml%26typeNames%3Dcsw%3ARecord%26elementSetName%3Dfull%26constraintLanguage%3DFilter%26constraint_language_version%3D1.1.0%26startPosition%3D1%26maxRecords%3D6000%26Constraint%3D%3CFilter%3E%3CPropertyIsLike%20wildCard%3D%22*%22%20singleChar%3D%22_%22%20escapeChar%3D%22%2F%22%3E%3CPropertyName%3EOpenData%3C%2FPropertyName%3E%3CLiteral%3Etrue%3C%2FLiteral%3E%3C%2FPropertyIsLike%3E%3C%2FFilter%3E) of the RDF metadata of all the datasets in the [geodati.gov.it](http://geodati.gov.it) catalogue, including the COVID-19 one.
 
-Then, in this [md file](https://github.com/pcm-dpc/COVID-19/blob/master/dati-andamento-covid19-italia.md) of the description of the dataset we found [this link](https://geodati.gov.it/geoportale/visualizzazione-metadati/scheda-metadati/?uuid=PCM%3ACOVID-19%3A05032020%3A093000) to the metadata in the [geodati.gov.it](http://geodati.gov.it) site. Ignoring the fact that it is not possible to access to the actual RDF file of this metadata, we realized that it was more updated than the github one. So the github XML file was old and not updated metadata.
+        Concluding, finding the right metadata for a government dataset should not be this complicated and long search and it should have been made available in the Github repository;
 
-Doing more research we found [this manual](https://geodati.gov.it/geoportale/images/struttura/documenti/GeoDCAT-AP_IT-v1.0.pdf), which explains that the territorial data which is also open can be “translated” to the DCAT-AP IT standard through the GeoDCAT-AP IT specific. And that the version of the metadata in the DCAT-AP IT standard could be found at [dati.gov.it](http://dati.gov.it).
+* *2:POP*:
 
-So we searched for the dataset in [dati.gov.it](http://dati.gov.it) catalogue and we found [this](https://www.dati.gov.it/view-dataset/dataset?id=327cbe0a-4737-4e2c-9567-c7d90f69570b), once again it was not possible to access the actual metadata file in RDF. Browsing the site more carefully we found [this page](https://dati.gov.it/elenco-harvest-sources) and  finally found the [download URL](https://geodati.gov.it/geodcat-ap_it/index.php?outputTransformation=dcatap_it&inputFormat=CSW&outputFormat=XML&src=request%3DGetRecords%26service%3DCSW%26version%3D2.0.2%26resultType%3Dresults%26outputSchema%3Dhttp%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd%26outputFormat%3Dapplication%2Fxml%26typeNames%3Dcsw%3ARecord%26elementSetName%3Dfull%26constraintLanguage%3DFilter%26constraint_language_version%3D1.1.0%26startPosition%3D1%26maxRecords%3D6000%26Constraint%3D%3CFilter%3E%3CPropertyIsLike%20wildCard%3D%22*%22%20singleChar%3D%22_%22%20escapeChar%3D%22%2F%22%3E%3CPropertyName%3EOpenData%3C%2FPropertyName%3E%3CLiteral%3Etrue%3C%2FLiteral%3E%3C%2FPropertyIsLike%3E%3C%2FFilter%3E) of the RDF metadata of all the datasets in the [geodati.gov.it](http://geodati.gov.it) catalogue, including the COVID-19 one.
+    * **Formats**: Excel, CSV, PC-Axis, SDMX. There is no real download URI for any of the formats;
 
-Concluding, finding the right metadata for a government dataset should not be this complicated and long search and it should have been made available in the Github repository.
+    * **Provenance**: [I.Stat](http://dati.istat.it), the ISTAT database;
 
-#### <a name="#pop"> 2:POP</a>
+    * **Metadata**: there is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard;
 
-**Formats**:
+* *3:PM10*:
 
-Excel, CSV, PC-Axis, SDMX
+    * **Formats**: CSV, TSV, JSON. There is no real download URI for any format;
+    * **Provenance**: [Air Quality e-Reporting](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9) by the European Environment Agency;
+    * **Metadata**: there is some [metadata](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9) but it doesn’t follow the DCAT-AP standard and there is no download URL. So we decided to translate the information in the DCAT-AP IT standard;
 
-There is no real download URI for any of the formats.
+* *4:SUP*:
 
-**Provenance**:
+    * **Formats**: Excel, CSV, PC-Axis, SDMX. There is no real download URI for any format;
 
-[I.Stat](http://dati.istat.it), the ISTAT database.
+    * **Provenance**:[I.Stat](http://dati.istat.it), the ISTAT database;
 
-**Metadata**:
+    * **Metadata**: there is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard;
 
-There is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard.
+* *5:AGE*:
 
-#### <a name="#pm10"> 3:PM10</a>
+    * **Formats**: Excel, CSV, PC-Axis, SDMX. There is no real download URI for any format;
 
-**Formats**:
+    * **Provenance**: [I.Stat](http://dati.istat.it), the ISTAT database;
 
-CSV, TSV, JSON
+    * **Metadata**: there is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard;
 
-There is no real download URI for any format.
+* *6:HOSP*:
 
-**Provenance**:
+    * **Formats**: [CSV](https://www.dati.salute.gov.it/imgs/C_17_dataset_68_0_upFile.csv);
 
-[Air Quality e-Reporting](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9) by the European Environment Agency.
+    * **Provenance**: the [Open Data Ministero della Salute](http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp) catalogue site;
 
-**Metadata**:
-
-There is some [metadata](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9) but it doesn’t follow the DCAT-AP standard and there is no download URL. So we decided to translate the information in the DCAT-AP IT standard.
-
-#### <a name="#sup"> 4:SUP</a>
-
-**Formats**:
-
-Excel, CSV, PC-Axis, SDMX
-
-There is no real download URI for any format.
-
-**Provenance**:
-
-[I.Stat](http://dati.istat.it), the ISTAT database.
-
-**Metadata**:
-
-There is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard.
-
-#### <a name="#age"> 5:AGE</a>
-
-**Formats**:
-
-Excel, CSV, PC-Axis, SDMX
-
-There is no real download URI for any format.
-
-**Provenance**:
-
-[I.Stat](http://dati.istat.it), the ISTAT database.
-
-**Metadata**:
-
-There is some [metadata](http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCIS_POPORESBIL1&Lang=it) next the data presented in the tool, but it follows no official standard. So we made it ourselves, gathering information from the ISTAT site and following the DCAT-AP IT standard.
+    * **Metadata**: we found the metadata through the same way that we used for the 1:COVID dataset: in this [dati.gov.it page](https://dati.gov.it/elenco-harvest-sources), where we found [this link](http://www.dati.salute.gov.it/imgs/C_17_paginaDataset_10_0_file.rdf) that contained the RDF metadata in the DCAT-AP IT standard for the catalogue and the dataset that we used;
 
 
 ### <a name="#sustainability"> 4.4 Sustainability</a>

@@ -210,5 +210,56 @@
     </dcat:dataset>
   </dcatapit:Catalog>
 
+  <!-- CATALOGO Open Data Ministero della Salute -->
+  <dcatapit:Catalog rdf:about="http://www.dati.salute.gov.it">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title xml:lang="it">Open Data Ministero della Salute</dct:title>
+    <dct:description xml:lang="it">Open Data Ministero della Salute</dct:description>
+    <dct:publisher>
+      <dcatapit:Agent rdf:about="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=m_sa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>m_sa</dct:identifier>
+        <foaf:name xml:lang="it">Ministero della Salute</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2021-04-16</dct:modified>
+    <foaf:homepage rdf:resource="http://www.dati.salute.gov.it"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcat:themeTaxonomy>
+      <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+        <dct:title>Data Theme Vocabulary</dct:title>
+      </skos:ConceptScheme>
+    </dcat:themeTaxonomy>
+    <dct:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20"/>
 
+    <!-- DATASET Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>6:HOSP</dct:identifier>
+        <dct:title xml:lang="it">Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici (anche costituiti in fondazione)</dct:title>
+        <dct:description xml:lang="it">Il data-set contiene l’elenco delle strutture di ricovero di tipo Azienda Ospedaliera, Azienda Ospedaliera Universitaria e IRCCS pubblico (anche costituito in fondazione) attive al 1° gennaio dell’anno di riferimento. A partire dall’anno 2010, per ciascuna struttura sono riportate le informazioni relative al tipo di struttura, indirizzo, comune, sigla provincia. Per le informazioni sul dataset è possibile far riferimento al dizionario:http://www.dati.salute.gov.it/dati/documenti/Dataset_Aziende_Ospedaliere_e_Aziende_Ospedaliere_Universitarie.pdf.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2019-12-31</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:about="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=m_sa">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <dct:identifier>m_sa</dct:identifier>
+            <foaf:name xml:lang="it">Ministero della Salute</foaf:name>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/annually"/>
+        <dcat:distribution rdf:resource="www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp/CSV"/>
+        <dcat:contactPoint rdf:resource="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=m_sa"/>
+        <dcat:landingPage rdf:resource="http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:keyword>Aziende</dcat:keyword>
+        <dcat:keyword>open data</dcat:keyword>
+        <dcat:keyword>Ministero della salute</dcat:keyword>
+        <dcat:keyword>Servizi di sanità</dcat:keyword>
+        <dcat:keyword>Ospedali</dcat:keyword>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+  </dcatapit:Catalog>
 </rdf:RDF>
