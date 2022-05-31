@@ -123,9 +123,9 @@
           <dcatapit:Distribution>
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-            <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/> <!-- da rivedere -->
+            <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/> 
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
@@ -145,9 +145,9 @@
           <dcatapit:Distribution>
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-            <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#"/> <!-- da rivedere -->
+            <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#"/>
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL> 
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
@@ -170,6 +170,28 @@
             <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#"/> <!-- da rivedere -->
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
             <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+          </dcatapit:Distribution>
+        </dcat:distribution>
+      </dcatapit:Dataset>
+    </dcat:dataset>
+    <!-- DATASET TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA -->
+    <dcat:dataset>
+      <dcatapit:Dataset rdf:about="https://www.istat.it/it/archivio/251803">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:identifier>7:TEMP</dct:identifier>
+        <dct:title xml:lang="it">TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA</dct:title>
+        <dct:description xml:lang="it">L’Istat rende disponibile l’aggiornamento al 2019 della serie storica delle statistiche meteo-climatiche di precipitazione e temperatura. Vengono diffusi valori medi e indici di temperatura media annua e precipitazione totale annua per i 109 capoluoghi di provincia, calcolati attraverso dati giornalieri di stazioni temo-pluviometriche ubicate nel territorio dei capoluoghi osservati. I valori dell’anno 2019 sono confrontati con i rispettivi valori medi del decennio 2007-2016 per ogni città, per descrivere condizioni meteo-climatiche e variabilità di alcuni fenomeni. A causa della disponibilità per i capoluoghi di regione di più ampie serie storiche di dati, i valori medi dei parametri e gli Indici di estremi meteo-climatici del 2019 e del periodo 2007-2016 sono confrontati anche con i valori medi del trentennio1971-2000 (Normale Climatologica).</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"></dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:rightsHolder rdf:resource="https://www.istat.it/it/"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:distribution>
+          <dcatapit:Distribution>
+            <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.istat.it/it/files//2020/12/Tavole_dati_meteo_2019_capoluoghi-provincia.xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
@@ -203,7 +225,7 @@
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
             <dcat:accessURL rdf:resource="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"/>
             <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL> 
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>

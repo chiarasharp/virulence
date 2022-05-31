@@ -53,6 +53,6 @@ var labels = {
     'title':'Temperature mean (2019)',
     'type' : 'Celsius degrees.',
     'description':'The temperature mean (2019), for every italian region.',
-    'source': '<a href="" target="_blank" class="text-info"></a> – <a href="" target="_blank" class="text-info"></a>'
+    'source': '<a href="http:/istat.it" target="_blank" class="text-info">Istat</a> – <a href="https://www.istat.it/it/archivio/251803" target="_blank" class="text-info">TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA</a>'
   }
 }
