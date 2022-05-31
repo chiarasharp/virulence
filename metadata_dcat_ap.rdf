@@ -11,6 +11,68 @@
     <foaf:name>Luca Tonti</foaf:name>
   </foaf:Agent>
 
+
+  <!-- VIRULENCE DATASET -->
+  <dcat:dataset>
+    <dcatapit:Dataset rdf:about="https://github.com/chiarasharp/virulence">
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dct:identifier>0:VIR</dct:identifier>
+      <dct:title>Virulence dataset</dct:title>
+      <dct:description>The Virulence datasets contains informations concerning the factors that could have impacted the first wave of the COVID-19 pandemic in the italian regions. The catalog was created for the Open Access and Digital Ethics course at the University of Bologna and will not be actively mantained in the future.</dct:description>
+      <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-02</dct:modified>
+      <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+      <dct:publisher>
+        <foaf:Person>
+          <foaf:name>Chiara Manca</foaf:name>
+          <foaf:mbox>chiara.manca2@studio.unibo.it</foaf:mbox>
+        </foaf:Person>
+        <foaf:Person>
+          <foaf:name>Luca Tonti</foaf:name>
+          <foaf:mbox>@studio.unibo.it</foaf:mbox>
+        </foaf:Person>
+      </dct:publisher>
+      <dct:creator>
+        <foaf:Person>
+          <foaf:name>Chiara Manca</foaf:name>
+          <foaf:mbox>chiara.manca2@studio.unibo.it</foaf:mbox>
+        </foaf:Person>
+        <foaf:Person>
+          <foaf:name>Luca Tonti</foaf:name>
+          <foaf:mbox>@studio.unibo.it</foaf:mbox>
+        </foaf:Person>
+      </dct:creator>
+      <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+      <dcat:distribution>
+        <dcatapit:Distribution>
+          <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+          <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          <dcat:accessURL rdf:resource=""/> 
+          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
+        </dcatapit:Distribution>
+      </dcat:distribution>
+      <dcat:distribution>
+        <dcatapit:Distribution>
+          <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+          <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          <dcat:accessURL rdf:resource=""/> 
+          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
+        </dcatapit:Distribution>
+      </dcat:distribution>
+      <dcat:distribution>
+        <dcatapit:Distribution>
+          <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+          <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
+          <dcat:accessURL rdf:resource=""/> 
+          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
+        </dcatapit:Distribution>
+      </dcat:distribution>
+    </dcatapit:Dataset>
+  </dcat:dataset>
+  
+
   <!-- CATALOGO RNDT -->
   <dcatapit:Catalog rdf:about="https://geodati.gov.it">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>

@@ -38,7 +38,7 @@ var labels = {
   'age_mean':{
     'title':'Age mean (2019)',
     'type' : 'years old.',
-    'description':'The age mean (2019), for every italian region.',
+    'description':'The average age (2019), for every italian region.',
     'source': '<a href="http://dati.istat.it" target="_blank" class="text-info">I.Stat</a> – <a href="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#" target="_blank" class="text-info">Indicatori demografici</a>'
   }
   ,
@@ -52,7 +52,7 @@ var labels = {
   'temperature_mean':{
     'title':'Temperature mean (2019)',
     'type' : 'Celsius degrees.',
-    'description':'The temperature mean (2019), for every italian region.',
+    'description':'The average temperature (2019), for every italian region.',
     'source': '<a href="http:/istat.it" target="_blank" class="text-info">Istat</a> – <a href="https://www.istat.it/it/archivio/251803" target="_blank" class="text-info">TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA</a>'
   }
 }
