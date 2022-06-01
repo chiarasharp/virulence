@@ -66,7 +66,7 @@
     <h4 style="color:rgba(158, 21, 59);">What data do we need?</h4>
   </div>
   <div class="container py-3 px-5 mx-5 text-justify">
-    <p>The data about the data used for the Virulence project. All the datasets described below can be accessed either in our <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence">GitHub repository</a> or in the links inside each <b>Distribution</b> field. Also, all the metadata has been made available in a <a target="_blank" class="text-info" href="https://raw.githubusercontent.com/chiarasharp/virulence/main/metadata_dcat_ap.rdf">RDF</a> file, as the standard <a target="_blank" class="text-info" href="https://www.w3.org/TR/vocab-dcat-2/">DCAT-AP 2.0</a> requires.</p>
+    <p>The data about the data used for the Virulence project. All the datasets described below can be accessed either in our <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence">GitHub repository</a> or in the links inside each <b>Distribution</b> field. Also, all the metadata has been made available in a <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/metadata_dcat_ap.rdf">RDF</a> file, as the standard <a target="_blank" class="text-info" href="https://www.w3.org/TR/vocab-dcat-2/">DCAT-AP 2.0</a> requires.</p>
   </div>
 
   <div class="container mt-3">
@@ -74,18 +74,94 @@
       <div class="bootstrap-select-wrapper">
         <label class="text-center"for="dataset" style="color:rgba(158, 21, 59);"><b>Select catalog:</b></label>
         <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
-          <option value="option1">RNDT</option>
-          <option value="option2">I.Stat</option>
-          <option value="option3">Air Quality e-Reporting</option>
-          <option value="option4">Open Data Ministero della Salute</option>
-          <!--<option value="option5">Opzione 5</option>-->
+          <option value="option1">Virulence</option>
+          <option value="option2">RNDT</option>
+          <option value="option3">I.Stat</option>
+          <option value="option4">Air Quality e-Reporting</option>
+          <option value="option5">Open Data Ministero della Salute</option>
         </select>
       </div>
     </div>
 
+     <!-- VIRULENCE ok-->
+     <div id="option1" class="group container w-auto p-5">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">Virulence Project</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">5 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>Virulence dataset</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ID</th>
+                      <td>0:VIR</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td>
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.csv"class="text-info" target="_blank">CSV</a>,
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.geojson"class="text-info" target="_blank">GEOJSON</a>,
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.xml"class="text-info" target="_blank">RDF</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td>The Virulence datasets contains informations concerning the factors that could have impacted the first wave of the COVID-19 pandemic in the italian regions. The catalog was created for the Open Access and Digital Ethics course at the University of Bologna and will not be actively mantained in the future.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2022-06-02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Subject</th>
+                      <td><a href="https://inspire.ec.europa.eu/theme/hh"class="text-info" target="_blank">Salute umana e sicurezza</a>, <a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/SOCI"class="text-info" target="_blank">Population and society</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://github.com/chiarasharp/virulence" class="text-info" target="_blank">Chiara Manca, Luca Tonti</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md" class="text-info" target="_blank">CC BY 4.0</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ENG" class="text-info" target="_blank">ENG</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
 
     <!-- RNDT ok-->
-    <div id="option1" class="group container w-auto p-5">
+    <div id="option2" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -159,7 +235,7 @@
     </div>
 
     <!-- I.STAT -->
-    <div id="option2" class="group container w-auto p-5">
+    <div id="option3" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">I.Stat</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -400,7 +476,7 @@
     </div>
 
     <!-- AIR QUALITY E-REPORTING -->
-    <div id="option3" class="group container w-auto p-5">
+    <div id="option4" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">Air Quality e-Reporting</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -471,7 +547,7 @@
     </div>
 
       <!-- Ministero della Salute ok -->
-    <div id="option4" class="group container w-auto p-5">
+    <div id="option5" class="group container w-auto p-5">
       <div class="card-header">
         <label for="tab"><h2 class="card-title">Open Data Ministero della Salute</h2></label>
         <h6 class="card-subtitle mb-2">

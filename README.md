@@ -58,7 +58,7 @@ The datasets used for our project. In the next sections we are going to analyze 
 ### <a name="#mashup-dataset">3.2 Mashup Dataset</a>
 
 *0:VIR*:
-* **Formats**: we decided to publish the data in CSV, JSON and RDF format;
+* **Formats**: we decided to publish the data in CSV, GEOJSON and RDF format;
 * **Metadata**: we paired the data with RDF metadata in DCAT-AP IT standard;
 * **Last update**: 2022-06-02;
 * **Description**: for each italian region the dataset contains: region name, region istat code, covid-19 cases at the beginning of the pandemic, covid-19 deaths at the beginning of the pandemic, covid-19 cases at the beginning of the pandemic for every 100.000 people, covid-19 deaths at the beginning of the pandemic for every 100.000 people, pm10 level mean of 2019, the population density in 2019, the average age of the population in 2019, the average temperature in 2019, the number of hospitals in 2019;
