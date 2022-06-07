@@ -66,7 +66,7 @@
     <h4 style="color:rgba(158, 21, 59);">What data do we need?</h4>
   </div>
   <div class="container py-3 px-5 mx-5 text-justify">
-    <p>The data about the data used for the Virulence project. All the datasets described below can be accessed either in our <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence">GitHub repository</a> or in the links inside each <b>Distribution</b> field. Also, all the metadata has been made available in a <a target="_blank" class="text-info" href="https://raw.githubusercontent.com/chiarasharp/virulence/main/metadata_dcat_ap.rdf">RDF</a> file, as the standard <a target="_blank" class="text-info" href="https://www.w3.org/TR/vocab-dcat-2/">DCAT-AP 2.0</a> requires.</p>
+    <p>The data about the data used for the Virulence project. All the datasets described below can be accessed either in our <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence">GitHub repository</a> or in the links inside each <b>Distribution</b> field. Also, all the metadata has been made available in a <a target="_blank" class="text-info" href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/metadata_dcat_ap.rdf">RDF</a> file, as the standard <a target="_blank" class="text-info" href="https://www.w3.org/TR/vocab-dcat-2/">DCAT-AP 2.0</a> requires.</p>
   </div>
 
   <div class="container mt-3">
@@ -74,20 +74,94 @@
       <div class="bootstrap-select-wrapper">
         <label class="text-center"for="dataset" style="color:rgba(158, 21, 59);"><b>Select catalog:</b></label>
         <select name="dataset" title="Scegli una opzione" class="form-select" id="selectMe">
-          <option value="option1">RNDT</option>
-          <option value="option2">I.Stat</option>
-          <option value="option3">Air Quality e-Reporting</option>
-          <!--<option value="option4">Opzione 4</option>
-          <option value="option5">Opzione 5</option>-->
+          <option value="option1">Virulence</option>
+          <option value="option2">RNDT</option>
+          <option value="option3">I.Stat</option>
+          <option value="option4">Air Quality e-Reporting</option>
+          <option value="option5">Open Data Ministero della Salute</option>
         </select>
       </div>
     </div>
 
+     <!-- VIRULENCE ok-->
+     <div id="option1" class="group container w-auto p-5">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">Virulence Project</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">5 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
 
-    <!-- RNDT
-    ok tranne:
-    - link csv-->
-    <div id="option1" class="group container w-auto p-5">
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>Virulence dataset</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ID</th>
+                      <td>0:VIR</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td>
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.csv"class="text-info" target="_blank">CSV</a>,
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.geojson"class="text-info" target="_blank">GEOJSON</a>,
+                        <a href="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.xml"class="text-info" target="_blank">RDF</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td>The Virulence datasets contains informations concerning the factors that could have impacted the first wave of the COVID-19 pandemic in the italian regions. The catalog was created for the Open Access and Digital Ethics course at the University of Bologna and will not be actively mantained in the future.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2022-06-02</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Subject</th>
+                      <td><a href="https://inspire.ec.europa.eu/theme/hh"class="text-info" target="_blank">Salute umana e sicurezza</a>, <a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/SOCI"class="text-info" target="_blank">Population and society</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://github.com/chiarasharp/virulence" class="text-info" target="_blank">Chiara Manca, Luca Tonti</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md" class="text-info" target="_blank">CC BY 4.0</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ENG" class="text-info" target="_blank">ENG</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+    <!-- RNDT ok-->
+    <div id="option2" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -117,7 +191,7 @@
                       </tr>
                       <tr>
                         <th scope="row">Distribution</th>
-                        <td><a href=""class="text-info" target="_blank">CSV</a></td> <!-- rivedere link -->
+                        <td><a href="https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni"class="text-info" target="_blank">CSV</a></td> <!-- rivedere link -->
                       </tr>
                       <tr>
                         <th scope="row">Description</th>
@@ -160,10 +234,8 @@
         </div>
     </div>
 
-    <!-- I.STAT
-    ok tranne:
-    - link csv -->
-    <div id="option2" class="group container w-auto p-5">
+    <!-- I.STAT -->
+    <div id="option3" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">I.Stat</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -199,7 +271,7 @@
                           <a href=""class="text-info" target="_blank">CSV</a>,
                           <a href=""class="text-info" target="_blank">PC-Axis</a>,
                           <a href=""class="text-info" target="_blank">SDMX</a>
-                        </td> <!-- link -->
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">Description</th>
@@ -256,7 +328,7 @@
                           <a href=""class="text-info" target="_blank">CSV</a>,
                           <a href=""class="text-info" target="_blank">PC-Axis</a>,
                           <a href=""class="text-info" target="_blank">SDMX</a>
-                        </td> <!-- link -->
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">Description</th>
@@ -313,7 +385,7 @@
                           <a href=""class="text-info" target="_blank">CSV</a>,
                           <a href=""class="text-info" target="_blank">PC-Axis</a>,
                           <a href=""class="text-info" target="_blank">SDMX</a>
-                        </td> <!-- link -->
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">Description</th>
@@ -346,12 +418,65 @@
             </div>
           </div>
         </div>
+
+         <!-- TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA -->
+         <div class="card-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="table-responsive">
+                  <table name="tab" class="table table-hover table-responsive">
+                    <tbody>
+                      <tr>
+                        <th>Dataset</th>
+                        <td>TEMPERATURA E PRECIPITAZIONE NELLE CITTÀ CAPOLUOGO DI PROVINCIA</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">ID</th>
+                        <td>7:TEMP</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Distribution</th>
+                        <td>
+                          <a href="https://www.istat.it/it/files//2020/12/Tavole_dati_meteo_2019_capoluoghi-provincia.xlsx"class="text-info" target="_blank">Excel</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Description</th>
+                        <td>L’Istat rende disponibile l’aggiornamento al 2019 della serie storica delle statistiche meteo-climatiche di precipitazione e temperatura. Vengono diffusi valori medi e indici di temperatura media annua e precipitazione totale annua per i 109 capoluoghi di provincia, calcolati attraverso dati giornalieri di stazioni temo-pluviometriche ubicate nel territorio dei capoluoghi osservati. I valori dell’anno 2019 sono confrontati con i rispettivi valori medi del decennio 2007-2016 per ogni città, per descrivere condizioni meteo-climatiche e variabilità di alcuni fenomeni. A causa della disponibilità per i capoluoghi di regione di più ampie serie storiche di dati, i valori medi dei parametri e gli Indici di estremi meteo-climatici del 2019 e del periodo 2007-2016 sono confrontati anche con i valori medi del trentennio1971-2000 (Normale Climatologica).</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Modified</th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Theme</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/data-theme/ENVI"class="text-info" target="_blank">Environment</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Rights Holder</th>
+                        <td><a href="https://www.istat.it/it/" class="text-info" target="_blank">Istat – Istituto nazionale di statistica</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">License</th>
+                        <td><a href="https://creativecommons.org/licenses/by/3.0/it/" class="text-info" target="_blank">CC BY 3.0 IT</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Language</th>
+                        <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
-    <!-- AIR QUALITY E-REPORTING
-    ok tranne:
-    - link distribuzione -->
-    <div id="option3" class="group container w-auto p-5">
+    <!-- AIR QUALITY E-REPORTING -->
+    <div id="option4" class="group container w-auto p-5">
         <div class="card-header">
           <label for="tab"><h2 class="card-title">Air Quality e-Reporting</h2></label>
           <h6 class="card-subtitle mb-2">
@@ -382,7 +507,7 @@
                         <th scope="row">Distribution</th>
                         <td><a href=""class="text-info" target="_blank">CSV</a>,
                             <a href=""class="text-info" target="_blank">TSV</a>,
-                            <a href=""class="text-info" target="_blank">JSON</a></td> <!-- link -->
+                            <a href=""class="text-info" target="_blank">JSON</a></td>
                       </tr>
                       <tr>
                         <th scope="row">Description</th>
@@ -421,6 +546,79 @@
         </div>
     </div>
 
+      <!-- Ministero della Salute ok -->
+    <div id="option5" class="group container w-auto p-5">
+      <div class="card-header">
+        <label for="tab"><h2 class="card-title">Open Data Ministero della Salute</h2></label>
+        <h6 class="card-subtitle mb-2">
+          <span class="text-warning">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <a target="_blank" class="text-info" href="https://5stardata.info/en/#what-are-the-costs--benefits-of--web-data">3 stars web data</a>
+        </h6>
+      </div>
+      <div class="card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+
+              <div class="table-responsive">
+                <table name="tab" class="table table-hover table-responsive">
+                  <tbody>
+                    <tr>
+                      <th>Dataset</th>
+                      <td>Aziende Ospedaliere, Aziende Ospedaliere Universitarie e IRCCS pubblici (anche costituiti in fondazione)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ID</th>
+                      <td>6:HOSP</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Distribution</th>
+                      <td><a href="https://www.dati.salute.gov.it/imgs/C_17_dataset_68_0_upFile.csv"class="text-info" target="_blank">CSV</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Description</th>
+                      <td>Il data-set contiene l’elenco delle strutture di ricovero di tipo Azienda Ospedaliera, Azienda Ospedaliera Universitaria e IRCCS pubblico (anche costituito in fondazione) attive al 1° gennaio dell’anno di riferimento. A partire dall’anno 2010, per ciascuna struttura sono riportate le informazioni relative al tipo di struttura, indirizzo, comune, sigla provincia. Per le informazioni sul dataset è possibile far riferimento al dizionario: <a href="http://www.dati.salute.gov.it/dati/documenti/Dataset_Aziende_Ospedaliere_e_Aziende_Ospedaliere_Universitarie.pdf"class="text-info" target="_blank">http://www.dati.salute.gov.it/dati/documenti/Dataset_Aziende_Ospedaliere_e_Aziende_Ospedaliere_Universitarie.pdf</a>.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Modified</th>
+                      <td>2019-12-31</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Subject</th>
+                      <td><a href="https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Theme</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/data-theme/HEAL"class="text-info" target="_blank">Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Rights Holder</th>
+                      <td><a href="https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=m_sa" class="text-info" target="_blank">Ministero della Salute</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">License</th>
+                      <td><a href="https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20" class="text-info" target="_blank">Italian Open Data License 2.0 (IODL 2.0)</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Language</th>
+                      <td><a href="http://publications.europa.eu/resource/authority/language/ITA" class="text-info" target="_blank">ITA</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Keyword</th>
+                      <td>Aziende, open data, Ministero della Salute, Servizi di sanità, Ospedali</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </div>
 
   <footer class="footer mt-5 p-4 text-center py3 bg-light ">
