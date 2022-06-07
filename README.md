@@ -94,6 +94,8 @@ The initial datasets have been subjected to a quality analysis, following the pr
 <tr><td>3:PM10</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
 <tr><td>4:SUP</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
 <tr><td>5:AGE</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+<tr><td>6:HOSP</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+<tr><td>7:TEMP</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
 </table>
 
 Below we justify our assessments for every dataset:
@@ -102,6 +104,8 @@ Below we justify our assessments for every dataset:
 - 3:PM10 - Some information like "city", "city code" and "city population" are missing in almost every line, but the "air quality station name" often compensates for this lack. It's updated to 2022.
 - 4:SUP - Updated to the beginning of 2020, this dataset provides the total surface of every italian region, represented in hectares (ha) and square kilometers (kmq).
 - 5:AGE - Updated to 2021, the dataset features information about life expectation in Italy, depending on the age group, and the percentage of the same groups in the peninsula.
+- 6:HOSP - The dataset covers only a period between 2010 and 2017, besides it lacks data about some regions (the most absent ones result to be Molise, Basilicata, Valle d'Aosta and Trentino-Alto Adige). Anyway, this information doesn't show accuracy or coherence issues.
+- 7:TEMP - Updated to 2019, this dataset deals only with provincial capital municipalities and regional capital municipalities (comuni capoluogo di provincia e comuni capoluogo di regione). However, it is exhaustive in every other aspect.
 
 ### <a name="#legal-analysis"> 4.2 Legal Analysis</a>
 
@@ -111,6 +115,8 @@ Below we justify our assessments for every dataset:
 - 3:PM10 - This dataset is under a "<a href="https://www.eea.europa.eu/code/gis" rel="nofollow">EEA (European Environment Agency) standard re-use policy</a>": this means that this content is freely available either for commercial and non-commercial use, as long as the source is acknowledged. This is possible thanks to "<a href="https://discomap.eea.europa.eu/Index/" rel="nofollow">Discomap</a>", a website that allows the re-use of map services created by developers and GIS (Geographic Information System) experts.
 - 4:SUP - Same as the 2:POP dataset.
 - 5:AGE - Same as the 2:POP dataset.
+- 6:HOSP - Provided by the website of the Ministry of Health, this dataset is tutelated by a "<a href="https://www.dati.gov.it/iodl/2.0/" rel="nofollow">Italian Open Data Licence 2.0</a>": data under this policy can be freely downloaded, consulted and shared. Besides, users have the possibility to merge this data with further information, in order to obtain a mashup for a product or an application. The only requirement is to mention the source and to include, if possible, a link to the license.
+- 7:TEMP - Same as the 2:POP dataset.
 
 ### <a name="#technical-analysis"> 4.3 Technical Analysis</a>
 
