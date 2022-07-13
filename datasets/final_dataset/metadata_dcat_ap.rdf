@@ -4,7 +4,8 @@
   xmlns:time="http://www.w3.org/2006/time#"
   xmlns:dct="http://purl.org/dc/terms/"
   xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:cc="http://creativecommons.org/ns#">
 
   <foaf:Agent>
     <foaf:name>Chiara Manca</foaf:name>
@@ -42,12 +43,24 @@
         </foaf:Person>
       </dct:creator>
       <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+      <prov:wasDerivedFrom rdf:resource="https://geodati.gov.it/resource/id/PCM:COVID-19:05032020:093000"/>
+      <prov:wasDerivedFrom rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/>
+      <prov:wasDerivedFrom rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#"/>
+      <prov:wasDerivedFrom rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#"/>
+      <prov:wasDerivedFrom rdf:resource="https://www.istat.it/it/archivio/251803"/>
+      <prov:wasDerivedFrom rdf:resource="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"/>
+      <prov:wasDerivedFrom rdf:resource="http://www.dati.salute.gov.it/dataset/aziende_ospedaliere_e_aziende_ospedaliere_universitarie.jsp"/>
       <dcat:distribution>
         <dcatapit:Distribution>
           <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
           <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.csv"/> 
-          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.csv"/>
+          <cc:license rdf:about="https://creativecommons.org/licenses/by/4.0/">
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+          </cc:license>
           <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
         </dcatapit:Distribution>
       </dcat:distribution>
@@ -55,8 +68,13 @@
         <dcatapit:Distribution>
           <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
           <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
-          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.geojson"/> 
-          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.geojson"/>
+          <cc:license rdf:about="https://creativecommons.org/licenses/by/4.0/">
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+          </cc:license>
           <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
         </dcatapit:Distribution>
       </dcat:distribution>
@@ -64,14 +82,19 @@
         <dcatapit:Distribution>
           <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
           <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
-          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.xml"/> 
-          <dct:license rdf:resource="https://github.com/chiarasharp/virulence/blob/main/LICENSE.md"/>
+          <dcat:accessURL rdf:resource="https://github.com/chiarasharp/virulence/blob/main/datasets/final_dataset/covid-data-regions-first-quarantine.xml"/>
+          <cc:license rdf:about="https://creativecommons.org/licenses/by/4.0/">
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+            <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+            <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+          </cc:license>
           <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
         </dcatapit:Distribution>
       </dcat:distribution>
     </dcatapit:Dataset>
   </dcat:dataset>
-  
+
 
   <!-- CATALOGO RNDT -->
   <dcatapit:Catalog rdf:about="https://geodati.gov.it">
@@ -185,8 +208,8 @@
           <dcatapit:Distribution>
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-            <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/> 
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:accessURL rdf:resource="http://dati.istat.it/viewhtml.aspx?il=blank&vh=0000&vf=0&vcq=1100&graph=0&view-metadata=1&lang=it&QueryId=18461&metadata=DCIS_POPORESBIL1"/>
+            <cc:license rdf:about="https://creativecommons.org/licenses/by/3.0/it/"/>
             <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
@@ -208,8 +231,8 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
             <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCCV_CARGEOMOR_ST_COM#"/>
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL> 
+            <cc:license rdf:about="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
@@ -230,7 +253,7 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
             <dcat:accessURL rdf:resource="http://dati.istat.it/Index.aspx?DataSetCode=DCIS_INDDEMOG1#"/> <!-- da rivedere -->
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <cc:license rdf:about="https://creativecommons.org/licenses/by/3.0/it/"/>
             <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>  <!-- da rivedere con download link nostro github -->
           </dcatapit:Distribution>
         </dcat:distribution>
@@ -252,7 +275,7 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
             <dcat:accessURL rdf:resource="https://www.istat.it/it/files//2020/12/Tavole_dati_meteo_2019_capoluoghi-provincia.xlsx"/>
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/it/"/>
+            <cc:license rdf:about="https://creativecommons.org/licenses/by/3.0/it/"/>
             <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
@@ -286,8 +309,8 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
             <dcat:accessURL rdf:resource="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"/>
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL> 
+            <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dcat:downloadURL>
           </dcatapit:Distribution>
         </dcat:distribution>
       </dcatapit:Dataset>
